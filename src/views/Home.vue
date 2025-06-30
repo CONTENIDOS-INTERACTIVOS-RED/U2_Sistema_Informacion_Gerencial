@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La Unidad 3 del curso: Sistemas de información gerencial, explora aplicaciones clave como ERP, CRM y herramientas de inteligencia de negocios (BI). Su enfoque está en cómo estas tecnologías optimizan procesos, mejoran la toma de decisiones y aumentan la competitividad organizacional. A través de casos de éxito y metodologías de análisis de datos como Power BI, se promueve una visión práctica y estratégica del uso de sistemas de información. Se abordan factores críticos de implementación, retos de transformación digital, y el papel de la interoperabilidad, destacando la importancia del desarrollo de habilidades técnicas y blandas.
+              p.descripcion.mb-4 La Unidad 2 aborda la infraestructura de la tecnología de la información (TI) como base esencial para la competitividad organizacional. Examina componentes como hardware, software, servicios en la nube, bases de datos, inteligencia de negocios y ciberseguridad. Se destacan tecnologías emergentes (IA, IoT, Big Data), modelos de integración tecnológica y principios de seguridad. A través de casos y herramientas prácticas, se promueve una comprensión integral del uso estratégico de la TI en la toma de decisiones empresariales, fortaleciendo la innovación, eficiencia y sostenibilidad en contextos reales o simulados.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

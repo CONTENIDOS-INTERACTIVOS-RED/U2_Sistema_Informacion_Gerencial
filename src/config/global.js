@@ -1,8 +1,8 @@
 export default {
   global: {
-    numeroUnidad: '3',
+    numeroUnidad: '2',
     tituloUnidad:
-      'Aplicaciones claves y administración de sistemas de información',
+      'Infraestructura de la Tecnología de la Información',
   },
   menuPrincipal: {
     menu: [

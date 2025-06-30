@@ -1,220 +1,196 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Sistemas de información para la gestión organizacional'")
+  BannerInterno(:subTitulo="'1. Infraestructura de TI y tecnologías emergentes'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    .bg-full-width.bg-color-8.mb-5
-      .p-4.p-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-6.order-lg-2.mb-3.mb-lg-0
-            figure
-              img(src="@/assets/curso/tema3/1.svg", data-aos="zoom-in")
-          .col-lg-6.order-lg-1
-            p(data-aos="fade-left").mb-4 A continuación, se  explora el papel fundamental de los sistemas de información en el entorno empresarial actual, destacando su impacto en la toma de decisiones, la integración organizacional y la transformación digital.
-            TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-              texto="Sistemas de Información en la Gestión Empresarial"
-              tiempo
-              :audio="require('../../assets/curso/podcast/podcast1.mp3')"
-            )
-
-    #t_1_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.1] Aplicaciones empresariales: características e integración en la organización
-    
     .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema3/2.png", data-aos="zoom-in")
       .col-lg-8
-        p.mb-5(data-aos="fade-left") Las aplicaciones empresariales se han convertido en herramientas fundamentales para optimizar procesos y mejorar la eficiencia organizacional. Estas soluciones de software automatizan tareas, facilitan la comunicación entre departamentos y proporcionan información en tiempo real, lo que permite tomar decisiones más informadas y ágiles.
+        p(data-aos="fade-left").mb-4 En el escenario corporativo contemporáneo, marcado por la acelerada evolución tecnológica, la infraestructura de tecnología de la información (TI) se ha establecido como un elemento indispensable para la competitividad y la eficiencia de la organización. Esta infraestructura comprende componentes tanto físicos como virtuales, tales como servidores, redes, software y servicios en la nube, los cuales permiten a las empresas operar de manera eficaz y adaptarse a las exigencias de mercado. 
     
-        .bg-color-7.p-4(data-aos="fade-left")
+        .bg-color-1.p-4(data-aos="fade-left").mb-4
           .row.align-items-start
             .col-lg-auto
-              img(src="@/assets/curso/tema3/3.svg", style="max-width: 90px").mx-auto
+              img(src="@/assets/curso/tema1/icono.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 Se caracterizan por su escalabilidad, adaptabilidad e integración con otros sistemas. Gracias a su diseño modular, las organizaciones pueden implementar solo los componentes que necesitan, lo que reduce costos y mejora la eficiencia operativa. Además, suelen ofrecer interfaces intuitivas y personalizables que facilitan su adopción y reducen la resistencia al cambio.
+              p.mb-0 La implementación de tecnologías emergentes como la inteligencia artificial, el Internet de las Cosas (IoT) y la computación en la nube, ha revolucionado la forma en que las organizaciones administran sus recursos y procesos. Estos avances tecnológicos promueven la automatización de tareas, el análisis predictivo y la toma de decisiones fundamentadas en datos, lo que conduce a una mayor agilidad y capacidad de respuesta ante las fluctuaciones del entorno. Adicionalmente, la instauración de una infraestructura de tecnología de la información sólida y adaptable otorga a las empresas la capacidad de mejorar la experiencia del cliente, optimizar la cadena de suministro y promover la innovación en productos y servicios.
     
-    .row.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+      .col-lg-4
         figure
-          img(src="@/assets/curso/tema3/4.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        p.mb-5(data-aos="fade-left") La integración de estas aplicaciones es crucial para eliminar silos de información y fomentar una mayor colaboración. Esto permite obtener una visión integral de las operaciones y adaptarse rápidamente a los cambios del entorno. Un ejemplo de esta integración es la implementación de un sistema <b>ERP (<em>Enterprise Resource Planning</em>)</b> que centraliza recursos humanos, finanzas y operaciones, reduciendo redundancias y mejorando la precisión de los datos.
+          img(src="@/assets/curso/tema1/2.png", data-aos="zoom-in")
+
+
+    .row.mb-5
+      .col-lg-5
+        figure
+          img(src="@/assets/curso/tema1/3.png", data-aos="zoom-in")
+      .col-lg-7
+
+        p(data-aos="fade-left").mb-4 La virtualización y los servicios basados en la nube proporcionan escalabilidad y disminución de costos operativos, al mismo tiempo que aseguran la continuidad de la empresa y la protección de la información. En este escenario, resulta esencial que los administradores futuros comprendan la relevancia de la infraestructura de Tecnología de la Información y las tecnologías emergentes como instrumentos estratégicos para la consecución de los objetivos de la organización. 
     
-        .bg-color-1.p-4(data-aos="fade-left")
-          p.mb-0 Además, el desarrollo de habilidades blandas —como la adaptabilidad, la comunicación efectiva y el pensamiento crítico— es esencial para aprovechar al máximo estas herramientas. Los profesionales que comprenden y utilizan las aplicaciones empresariales están mejor preparados para liderar procesos de transformación digital e impulsar una cultura de innovación.
-    
-    .titulo-figura.mb-4
-      h5 Tabla 1.
-      span Aplicaciones empresariales: tipos, definiciones y ejemplos
-    .tabla-a.color-acento-botones.mb-5
-      table
-        thead
-          tr
-            th.bg-color-9 Tipo de Aplicación Empresarial
-            th.bg-color-9 Definición
-            th.bg-color-9 Ejemplos
-        tbody.bg-color-white
-          tr
-            td ERP <em>(Enterprise Resource Planning)</em>
-            td Sistema que integra procesos empresariales clave como finanzas, recursos humanos y cadena de suministro en una única plataforma.
-            td SAP, Oracle ERP Cloud, Microsoft Dynamics 365
-          tr
-            td CRM (<em>Customer Relationship Management</em>)
-            td Software para gestionar relaciones con clientes desde la captación hasta la fidelización.
-            td Salesforce, Zoho CRM, HubSpot
-          tr
-            td SCM (<em>Supply Chain Management</em>)
-            td Herramienta para gestionar y optimizar la cadena de suministro, desde la adquisición hasta la entrega.
-            td Infor SCM, SAP SCM, Oracle SCM Cloud
-          tr
-            td BI (<em>Business Intelligence)</em>
-            td Conjunto de herramientas para recolectar, analizar y presentar datos estratégicos.
-            td Power BI, Tableau, Qlik Sense
-          tr
-            td HRM (<em>Human Resource Management</em>)
-            td Sistema para gestionar el talento humano: contratación, capacitación, evaluación y nómina.
-            td Workday, BambooHR, ADP
-          tr
-            td Gestión de proyectos
-            td Software que facilita la planificación, ejecución y seguimiento de proyectos.
-            td Asana, Trello, Microsoft Project
-          tr
-            td Gestión financiera
-            td Aplicaciones para registrar, procesar y analizar finanzas: presupuestos, ingresos y gastos.
-            td QuickBooks, Xero, FreshBooks
-          tr
-            td Plataformas de colaboración
-            td Herramientas de comunicación y colaboración en tiempo real, especialmente útiles en entornos virtuales.
-            td Microsoft Teams, Slack, Google Workspace
-          tr
-            td Gestión de relaciones con proveedores
-            td Sistemas para optimizar adquisiciones y relaciones contractuales con proveedores.
-            td SAP Ariba, Coupa, Jaggaer
+        .bg-color-2.p-4(data-aos="fade-left")
+          p.mb-0 La comprensión y administración correcta de estos recursos tecnológicos no solo fomentan la eficiencia operativa, sino que también brindan nuevas oportunidades de crecimiento y diferenciación en un mercado de alta competitividad.
+
+
+    #t_1_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.1] Concepto y componentes de la infraestructura tecnológica en las organizaciones
+
+
+    .row.mb-5.align-items-center
+      .col-lg-8
+        p La infraestructura tecnológica en las entidades organizacionales alude al conjunto de recursos físicos y virtuales que facilitan el funcionamiento eficaz de los sistemas de información y comunicación.  Esta infraestructura resulta fundamental para respaldar las operaciones cotidianas, simplificar el proceso de toma de decisiones y fomentar la innovación en los procedimientos corporativos. Las piezas fundamentales de la infraestructura tecnológica comprenden: 
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema1/4.svg", alt="")
+
+
+    .bg-full-width.bg-fondo-slider
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/slide-1.png")
+            .col-lg-7
+              h5 #[em Firmware]
+              p Entienda los dispositivos físicos, tales como servidores, ordenadores, dispositivos de almacenamiento y equipos de red, que constituyen el fundamento de la infraestructura tecnológica.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/slide-2.png")
+            .col-lg-7
+              h5 Programas de aplicación
+              p Comprende los sistemas operativos, las aplicaciones y los programas que facilitan la realización de tareas específicas y la administración de recursos tecnológicos.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/slide-3.png")
+            .col-lg-7
+              h5 Redes
+              p Incluye la conectividad entre los dispositivos, lo que facilita la comunicación y el intercambio de información tanto dentro como fuera de la organización.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/slide-4.png")
+            .col-lg-7
+              h5 Establecimientos de datos
+              p Se trata de instalaciones que alojan sistemas de computación y componentes relacionados, tales como sistemas de almacenamiento y telecomunicaciones.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/slide-4.png")
+            .col-lg-7
+              h5 Aplicaciones en la nube
+              p Proporcionan acceso a recursos informáticos de manera remota, proporcionando flexibilidad y escalabilidad en la administración de la infraestructura tecnológica.
+
+    .bg-full-width.bg-color-2.mb-5
+      .px-4.px-md-5.py-4
+        .row.align-items-center
+          .col-lg-auto
+            img(src="@/assets/curso/tema1/5.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0 La correcta administración de estos elementos es esencial para asegurar la seguridad, disponibilidad y eficiencia de los sistemas de información. Adicionalmente, una infraestructura tecnológica meticulosamente diseñada y mantenida aporta a la competitividad de la organización en un ambiente empresarial en constante evolución hacia la digitalización.
 
     #t_1_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.2] CRM y ERP: fundamentos, funcionalidades y beneficios estratégicos
+      h2 #[span 1.2] Tecnologías emergentes y su impacto en la competitividad empresarial
 
-    .bg-color-3.mb-5(data-aos="fade-up")
-      .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
-          figure
-            img(src='@/assets/curso/tema3/5.png', alt='')
-        .col-lg
-          .p-4
-            p.mb-0(data-aos="fade-up") En el entorno empresarial contemporáneo, la eficiencia operativa y la gestión efectiva de las relaciones con los clientes son pilares fundamentales para lograr la competitividad. En este contexto, los sistemas ERP (<em>Enterprise Resource Planning</em>) y CRM (<em>Customer Relationship Management</em>) emergen como herramientas estratégicas. Al integrarse, ofrecen una visión holística de la organización y potencian su capacidad de respuesta ante un mercado cada vez más dinámico.
     
-    h2.mb-5(data-aos="fade-left") Fundamentos y funcionalidades
+    p.mb-4 A continuación, se presenta una mirada al impacto de las tecnologías emergentes en la transformación y competitividad de las organizaciones.
+
+    .bg-full-width.bg-fondo-slider
+      .p-4.p-md-5
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/9lI7qpD3v8g?si=Y1EDjWRcT6hLiPUf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .bg-full-width.bg-color-2.mb-5
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/6.png', alt='')
+    
+          .col-lg-8
+            h2.mb-4(data-aos="flip-up") Ejemplo práctico TextilAndina S.A.S.
+            p.mb-4(data-aos="fade-right") Se invita a leer el documento Ejemplo práctico TextilAndina S.A.S., donde se aborda un caso simulado de transformación digital en una pyme del sector textil en Colombia.
+    
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Ejemplo práctico TextilAndina S.A.S
+    
+
+    h2 Modelos de integración tecnológica en los sistemas de información gerencial
 
     .row.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema3/6.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        p.mb-5(data-aos="fade-left") El sistema ERP se centra en la integración de los procesos internos de la empresa, abarcando áreas como finanzas, recursos humanos, producción y logística. Su propósito es optimizar la gestión de recursos y mejorar la eficiencia operativa a través de la automatización y centralización de la información (Addvantit, 2023).
-    
-        .bg-color-1.p-4(data-aos="fade-left")
-          p.mb-0 Por su parte, el CRM se orienta a la gestión de interacciones con los clientes, facilitando la recopilación y el análisis de datos para mejorar la experiencia del cliente y construir relaciones sostenibles. Entre sus funcionalidades destacan la gestión de contactos, el seguimiento de oportunidades de venta, la automatización del marketing y el soporte al cliente (Formación Cámara Bilbao, 2025).
-    
-    h2.mb-5(data-aos="fade-left") Beneficios estratégicos
-
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema3/7.png", data-aos="zoom-in")
       .col-lg-8
-        p.mb-5(data-aos="fade-left") La implementación conjunta de ERP y CRM genera beneficios significativos. Su integración permite una visión unificada de la organización, mejora la toma de decisiones y potencia la eficiencia operativa. Además, facilita la personalización de estrategias comerciales, gracias al acceso a datos precisos y actualizados sobre los clientes (QualitaHub, 2025).
+        .bg-color-1.p-4.mb-4(data-aos="fade-left")
+          .row.align-items-start
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/7.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 La incorporación de tecnologías en los sistemas de información gerencial (SIG) es fundamental para fortalecer los procesos operativos y respaldar decisiones estratégicas dentro de las organizaciones. Para facilitar esta integración, se han desarrollado diversos modelos adaptables a las particularidades estructurales y funcionales de cada entidad.
     
-        .bg-color-7.p-4(data-aos="fade-left")
-          p.mb-0 Un ejemplo práctico de esta sinergia es el de una empresa manufacturera que, tras implementar un sistema ERP, logró optimizar su cadena de suministro, reduciendo costos y tiempos de producción. De manera simultánea, el uso de un CRM permitió elevar la satisfacción del cliente al ofrecer un servicio más personalizado y eficaz.
+        p(data-aos="fade-left") A continuación, se presenta una comparativa de los principales modelos de integración tecnológica en los SIG:
     
-    h2(data-aos="fade-left") Desarrollo de habilidades blandas
-    p.mb-5 Para maximizar el impacto de estos sistemas, los profesionales deben fortalecer habilidades blandas como la adaptabilidad, la comunicación efectiva y el pensamiento crítico. Estas competencias son clave para liderar procesos de transformación digital, gestionar el cambio tecnológico y fomentar una cultura de innovación y mejora continua.
-
-    .titulo-figura.mb-4
-      h5 Tabla 2.
-      span Comparación: ERP vs. CRM
-    .tabla-a.color-acento-botones.mb-5
-      table
-        thead
-          tr
-            th.bg-color-9 Aspecto
-            th.bg-color-9 ERP (<em>Enterprise Resource Planning</em>)
-            th.bg-color-9 CRM (<em>Customer Relationship Management</em>)
-        tbody.bg-color-white
-          tr
-            td Objetivo principal
-            td Optimizar procesos internos y la gestión de recursos organizacionales.
-            td Mejorar la relación con los clientes y aumentar las ventas.
-          tr
-            td Áreas de aplicación
-            td Finanzas, recursos humanos, logística, producción, compras.
-            td Marketing, ventas, atención al cliente, fidelización.
-          tr
-            td Tipo de información gestionada
-            td Datos operativos y financieros internos.
-            td Datos de clientes, historial de compras, preferencias.
-          tr
-            td Beneficio estratégico
-            td Reducción de costos operativos y aumento de eficiencia.
-            td Incremento de ingresos mediante atención personalizada.
-          tr
-            td Impacto en la organización
-            td Automatiza y centraliza procesos clave.
-            td Personaliza las estrategias comerciales y fidelización.
-          tr
-            td Ejemplos de software
-            td SAP, Oracle ERP Cloud, Microsoft Dynamics 365.
-            td Salesforce, HubSpot, Zoho CRM.
-          tr
-            td Integración conjunta
-            td Ofrece una base sólida de datos internos para análisis y planificación.
-            td Complementa al ERP con una visión centrada en el cliente.
-    
-    #t_1_3.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.3] Casos de éxito en la implementación de ERP y CRM en diferentes sectores
-              
-    p.mb-4 La transformación digital ha impulsado a organizaciones de diversos sectores a adoptar sistemas ERP (<em>Enterprise Resource Planning</em>) y CRM (<em>Customer Relationship Management</em>) para optimizar sus operaciones y fortalecer las relaciones con los clientes. A continuación, se presentan casos destacados de implementación exitosa, ilustrando cómo estas herramientas pueden adaptarse a contextos específicos y generar impactos positivos en la gestión organizacional.
-
-    .bg-full-width.bg-color-12
-      .px-4.px-md-5.pb-md-3
-        .row.justify-content-center.mb-5
-          .col-lg-8.mb-3.mb-lg-0.order-lg-2
-            SlyderF(columnas="col-12 col-lg-6")
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema3/9.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Manufactura
-                p.text-center Una empresa colombiana del sector electrónico implementó un ERP para integrar procesos productivos y logísticos. Resultado: mejora de la eficiencia, calidad del producto y toma de decisiones.
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema3/10.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Financiero
-                p.text-center <em>Discover Financial Services</em> migró a un ERP en la nube para consolidar sistemas. Resultado: visión unificada del rendimiento, mayor eficiencia y mejor planificación financiera.
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema3/11.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Retail
-                p.text-center Una cadena de tiendas implementó un ERP para optimizar la cadena de suministro. Resultado: automatización de procesos, inventario más preciso y mejor experiencia del cliente.
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema3/12.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Salud
-                p.text-center Alephoo, <em>software</em> latinoamericano, fue implementado en clínicas y hospitales. Resultado: digitalización de procesos, eficiencia operativa y mejora en la atención al paciente.
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema3/13.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Automotor
-                p.text-center Wecaria integró una aplicación y un CRM para gestionar talleres y flotas. Resultado: aumento de eficiencia operativa y mejora en la calidad del servicio, tanto en flotas públicas como privadas.
-    
-          .col-lg-4.order-lg-1
-            figure
-              img(src='@/assets/curso/tema3/8.png', alt='')
-
-    .row.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+      .col-lg-4
         figure
-          img(src="@/assets/curso/tema3/14.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        p.mb-5(data-aos="fade-left") Estos casos de éxito demuestran que la implementación adecuada de sistemas ERP y CRM transforma profundamente las operaciones organizacionales. La clave del éxito radica en una planificación cuidadosa, la adaptación a las necesidades específicas de cada sector y el compromiso de todos los niveles de la empresa.
+          img(src="@/assets/curso/tema1/8.png", data-aos="zoom-in")
+
+    .row.align-items-start.mb-5
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema1/9.png", alt="").mb-4.mb-lg-0
+      .col-lg-8
     
-        .bg-color-1.p-4(data-aos="fade-left")
-          p.mb-0 Para los estudiantes de Administración de Empresas, estos ejemplos ofrecen valiosas lecciones sobre la importancia de la transformación digital y brindan herramientas conceptuales y prácticas para liderar procesos de cambio en sus futuras trayectorias profesionales.
+        AcordionA(tipo="b")
+          .div(titulo="<em>Point-to-Point</em> (P2P)")
+            p Establece conexiones directas entre sistemas específicos. Su implementación es sencilla, pero se vuelve compleja y poco escalable con múltiples sistemas (AppMaster, 2023).
+    
+          .div(titulo="<em>Hub-and-Spoke</em>")
+            p Utiliza un sistema central (hub) que actúa como intermediario entre sistemas periféricos (spokes). Reduce la complejidad y facilita la gestión centralizada (AppMaster, 2023).
+    
+          .div(titulo="<em>Enterprise Service Bus</em> (ESB)")
+            p Proporciona una arquitectura escalable, conectando múltiples aplicaciones a través de un bus de servicios. Ideal para entornos que exigen integración flexible y consistente (AppMaster, 2023).
+    
+          .div(titulo="Arquitectura orientada a servicios (SOA)")
+            p Favorece la interoperabilidad mediante servicios independientes que se comunican a través de interfaces estandarizadas. Promueve la reutilización de componentes (Jitterbit, 2023).
+
+          .div(titulo="Integración en la nube (iPaaS)")
+            p Basada en plataformas de integración como servicio (Integration Platform as a Service). Permite escalar fácilmente, reducir costos de infraestructura y garantizar accesibilidad remota (Alumio, 2024).
+    
+    
+    p La elección del modelo más adecuado depende de factores como:
+
+    .row.justify-content-center.align-items-stretch.mb-4
+      .col-lg-4
+        .bg-color-1.p-4(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/icono-1.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 La complejidad de los sistemas existentes
+    
+      .col-lg-4
+        .bg-color-1.p-4(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/icono-2.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Los recursos tecnológicos y humanos disponibles
+    
+      .col-lg-4
+        .bg-color-1.p-4(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/icono-2.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Las metas estratégicas de la organización
+    
+    
+    
+    
+    
 
 
     .bg-full-width.border-top.color-primario
