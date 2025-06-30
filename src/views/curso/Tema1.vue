@@ -167,7 +167,7 @@
         .bg-color-1.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
-              img(src="@/assets/curso/tema1/icono-1.svg", style="max-width: 90px").mx-auto
+              img(src="@/assets/curso/tema1/icono-1.svg", style="max-width: 80px").mx-auto
             .col-lg
               p.mb-0 La complejidad de los sistemas existentes
     
@@ -175,7 +175,7 @@
         .bg-color-1.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
-              img(src="@/assets/curso/tema1/icono-2.svg", style="max-width: 90px").mx-auto
+              img(src="@/assets/curso/tema1/icono-2.svg", style="max-width: 80px").mx-auto
             .col-lg
               p.mb-0 Los recursos tecnológicos y humanos disponibles
     
@@ -183,7 +183,7 @@
         .bg-color-1.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
-              img(src="@/assets/curso/tema1/icono-2.svg", style="max-width: 90px").mx-auto
+              img(src="@/assets/curso/tema1/icono-2.svg", style="max-width: 80px").mx-auto
             .col-lg
               p.mb-0 Las metas estratégicas de la organización
     
