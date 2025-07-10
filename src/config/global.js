@@ -15,29 +15,22 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Sistemas de información para la gestión organizacional',
+        titulo: 'Infraestructura de TI y tecnologías emergentes',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo:
-              'Aplicaciones empresariales: características e integración en la organización',
+              'Concepto y componentes de la infraestructura tecnológica en las organizaciones',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo:
-              'CRM y ERP: fundamentos, funcionalidades y beneficios estratégicos',
+              'Tecnologías emergentes y su impacto en la competitividad empresarial',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo:
-              'Casos de éxito en la implementación de ERP y CRM en diferentes sectores',
-            hash: 't_1_3',
           },
         ],
       },
@@ -45,29 +38,57 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Estrategias para la implementación de sistemas de información',
+        titulo: 'Gestión de datos e inteligencia de negocios',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo:
-              'Factores críticos para una implementación efectiva de SI en la empresa',
+            titulo: 'Fundamentos de bases de datos y gestión de la información',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
             titulo:
-              'Retos organizacionales y soluciones en procesos de transformación digital',
+              'Introducción al <em>Big Data</em> y análisis predictivo en la toma de decisiones',
             hash: 't_4_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo:
-              'Integración de sistemas en la empresa digital: interoperabilidad y alineación estratégica',
+            titulo: 'Herramientas y procesos clave en inteligencia de negocios',
             hash: 't_2_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Seguridad de la información y normativas vigentes',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo:
+              'Principios básicos de ciberseguridad en entornos empresariales',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo:
+              'Identificación de amenazas y vulnerabilidades tecnológicas',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo:
+              'Normativas y buenas prácticas en la protección de la infraestructura de TI',
+            hash: 't_3_3',
           },
         ],
       },
@@ -109,188 +130,206 @@ export default {
   referencias: [
     {
       referencia:
-        'López Ortuño, E. (2020). Sistema de información de mercados: (1 ed.). Marcombo. ',
+        'López Ortuño, E. (2020). Sistema de información de mercados: (1 ed.). Marcombo.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/280238',
     },
     {
       referencia:
-        'Lezanski, P. Mattio, A. & Merino, S. (2020). Sistema de información contable I: ( ed.). Editorial Maipue. ',
+        'Lezanski, P. Mattio, A. & Merino, S. (2020). Sistema de información contable I: ( ed.). Editorial Maipue.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/147944',
     },
     {
       referencia:
-        'Dueñas Nogueras, J. (2023). Sistemas de información y bases de datos: COMT0110: (1 ed.). IC Editorial. ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/229144 ',
+        'Dueñas Nogueras, J. (2023). Sistemas de información y bases de datos: COMT0110: (1 ed.). IC Editorial.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/229144',
     },
     {
       referencia:
-        'Izaguirre Castro, A. (2024). Proyectos exitosos de sistemas de información financiera: (1 ed.). Editorial Alfil, S. A. de C. V.  ',
+        'Izaguirre Castro, A. (2024). Proyectos exitosos de sistema información financiera: (1 ed.). Editorial Alfil, S. A. de C. V.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/280570',
     },
     {
       referencia:
-        'Carmona Romera, G. (2021). Sistema Operativo, búsqueda de información: Internet/Intranet y correo electrónico. ADGG0208: (1 ed.). IC Editorial. ',
+        'Carmona Romera, G. (2021). Sistema Operativo, búsqueda de información: Internet/Intranet y correo electrónico. ADGG0208: (1 ed.). IC Editorial.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/222252',
     },
     {
       referencia:
-        'Chicano Tejada, E. (2024). Gestionar el crecimiento y las condiciones ambientales. IFCT0510: (1 ed.). IC Editorial. ',
+        'Chicano Tejada, E. (2024). Gestionar el crecimiento y las condiciones ambientales. IFCT0510: (1 ed.). IC Editorial.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/274766',
     },
     {
       referencia:
-        'Lazzati, S. C. & Tailhade, M. (2019). Liderazgo gerencial: ( ed.). Ediciones Granica.  ',
+        'Lazzati, S. C. & Tailhade, M. (2019). Liderazgo gerencial: ( ed.). Ediciones Granica.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/151212',
     },
     {
       referencia:
-        'Molero Suárez, L. M. (Il.). (2024). Casos empresariales desde una mirada académica responsable: investigación enfocada a empresas y sus necesidades gerenciales: (1 ed.). Editorial Politécnico Grancolombiano.  ',
+        'Molero Suárez, L. M. (Il.). (2024). Casos empresariales desde una mirada académica responsable: investigación enfocada a empresas y sus necesidades gerenciales: (1 ed.). Editorial Politécnico Grancolombiano.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/279918',
     },
     {
       referencia:
-        'Becerra Bizarrón, M. E. Neri Guzmán, J. C. & Domínguez Valdez, B. M. (2020). Gestión empresarial y aprendizaje organizacional: herramientas para el desarrollo de habilidades gerenciales en un contexto de competitividad regional: ( ed.). Plaza y Valdés (México).  ',
+        'Becerra Bizarrón, M. E. Neri Guzmán, J. C. & Domínguez Valdez, B. M. (2020). Gestión empresarial y aprendizaje organizacional: herramientas para el desarrollo de habilidades gerenciales en un contexto de competitividad regional: ( ed.). Plaza y Valdés (México).',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/174181',
     },
     {
       referencia:
-        'Macías Joven, M. T. (2020). Guía del gerente financiero: desde el diagnóstico hasta la toma de decisiones: ( ed.). Universidad de La Sabana.  ',
+        'Macías Joven, M. T. (2020). Guía del gerente financiero: desde el diagnóstico hasta la toma de decisiones: ( ed.). Universidad de La Sabana.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/137823',
     },
     {
       referencia:
-        'Ramírez, M. & Tejada Betancourt, L. (Il.). (2020). Gerencia estratégica: ( ed.). Universidad Abierta para Adultos (UAPA). ',
+        'Ramírez, M. & Tejada Betancourt, L. (Il.). (2020). Gerencia estratégica: ( ed.). Universidad Abierta para Adultos (UAPA).',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/175881',
     },
     {
       referencia:
-        'Espinosa Manríquez, N. (2022). Contabilidad financiera y gerencial. Tomo III: Casos y ejercicios: (1 ed.). Editorial Universidad Alberto Hurtado.  ',
+        'Espinosa Manríquez, N. (2022). Contabilidad financiera y gerencial. Tomo III: Casos y ejercicios: (1 ed.). Editorial Universidad Alberto Hurtado.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/226848',
     },
     {
       referencia:
-        'Espinosa Manríquez, N. (2022). Contabilidad financiera y gerencial. Tomo II: Aplicaciones prácticas y soluciones: (1 ed.). Editorial Universidad Alberto Hurtado.  ',
+        'Espinosa Manríquez, N. (2022). Contabilidad financiera y gerencial. Tomo II: Aplicaciones prácticas y soluciones: (1 ed.). Editorial Universidad Alberto Hurtado.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/226847',
     },
     {
-      referencia:
-        'De la Rosa Curiel, E. O., Rodríguez Torres, E. D., & Acero Sánchez, F. (2020). Plan estratégico para fomentar el uso de las TIC en el sector agrícola. Corporación Universitaria Minuto de Dios. ',
-      link:
-        'https://repository.uniminuto.edu/bitstream/10656/12583/5/TE.PRO_DelaRosaEddie-RodriguezErika-AceroFernando_2020.pdf',
+      referencia: 'AppMaster. (2023). Tipos de integración de sistemas.',
+      link: 'https://appmaster.io/es/blog/tipos-de-integracion-de-sistemas',
     },
     {
       referencia:
-        'Universidad Nacional de Colombia. (2021). Propuesta metodológica para implementar un marco de referencia para la alineación estratégica de los sistemas de información. ',
-      link:
-        'https://repositorio.unal.edu.co/bitstream/handle/unal/80772/75065742.2021.pdf?isAllowed=y&sequence=2',
+        'Jitbit. (2023). ¿Qué es la integración de sistemas? Tipos, ejemplos y desafíos.',
+      link: 'https://www.jitbit.com/es/blog/what-is-system-integration/',
     },
     {
       referencia:
-        'Universidad Nacional de Colombia. (2020). Diagnóstico sobre el nivel de madurez de alineación estratégica de las tecnologías de la información en las organizaciones. ',
+        'Alumio. (2024). Integración de sistemas: métodos, herramientas y ventajas.',
       link:
-        'https://repositorio.unal.edu.co/bitstream/handle/unal/78595/1121819190.2020.pdf?isAllowed=y&sequence=1',
+        'https://www.alumio.com/es/blog/system-integration-methods-tools-and-benefits',
+    },
+    {
+      referencia:
+        'International Organization for Standardization. (2022). ISO/IEC 27002:2022 - Information security, cybersecurity and privacy protection — Information security controls.',
+      link: 'https://www.iso.org/standard/75652.html',
+    },
+    {
+      referencia:
+        'International Organization for Standardization. (2015). ISO/IEC 27033-1:2015 - Information technology — Security techniques — Network security — Part 1: Overview and concepts.',
+      link: 'https://www.iso.org/standard/63461.html',
+    },
+    {
+      referencia:
+        'Wikipedia. (2023, abril 15). ISO/IEC 27001. Wikipedia, la enciclopedia libre. Recuperado el 6 de mayo de 2025, de https://es.wikipedia.org/wiki/ISO/IEC_27001',
+      link: 'https://es.wikipedia.org/wiki/ISO/IEC_27001',
+    },
+    {
+      referencia:
+        'CCN-CERT. (2018). Principios y recomendaciones básicas en ciberseguridad.',
+      link:
+        'https://www.ucm.es/data/cont/media/www/pag-114974/CCN-CERT_BP_01.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Análisis de datos',
+      termino: 'Acceso',
       significado:
-        'proceso de inspección, limpieza y modelado de datos con el objetivo de descubrir información útil.',
+        'permiso otorgado a usuarios o sistemas para utilizar recursos o información dentro de una red o aplicación.',
     },
     {
-      termino: 'Análisis de tendencias',
+      termino: 'Amenaza',
       significado:
-        'identificación de patrones o cambios significativos en los datos a lo largo del tiempo.',
+        'cualquier evento potencial que pueda causar daño a los sistemas de información o comprometer la seguridad de los datos.',
     },
     {
       termino: 'Análisis predictivo',
       significado:
-        'uso de modelos estadísticos para prever eventos futuros basados en datos históricos.',
+        '<em>técnica</em> que utiliza datos históricos y algoritmos estadísticos para anticipar resultados futuros y apoyar la toma de decisiones.',
     },
     {
-      termino: 'Base de datos',
+      termino: 'Autenticación',
       significado:
-        'conjunto de datos organizados que se almacenan y se pueden consultar electrónicamente.',
+        '<em>proceso</em> mediante el cual un sistema verifica la identidad de un usuario antes de permitirle el acceso.',
+    },
+    {
+      termino: 'Backup',
+      significado:
+        'copia de seguridad de datos que se realiza para evitar su pérdida en caso de fallos del sistema o incidentes.',
     },
     {
       termino: 'Big Data',
       significado:
-        'grandes volúmenes de datos que no pueden ser tratados por herramientas tradicionales.',
+        '<em>conjunto</em> de datos masivos, variados y generados a gran velocidad, cuya gestión requiere tecnologías especializadas.',
     },
     {
-      termino: 'Business Intelligence',
+      termino: 'Ciberseguridad',
       significado:
-        'conjunto de procesos y herramientas que convierten datos en información útil para la toma de decisiones.',
+        '<em>conjunto</em> de prácticas, herramientas y procesos diseñados para proteger los sistemas informáticos de ataques o accesos no autorizados.',
     },
     {
-      termino: 'Ciclo de vida del dato',
+      termino: 'Confidencialidad',
       significado:
-        'fases por las que pasa un dato desde su creación hasta su eliminación.',
+        '<em>principio</em> de seguridad que asegura que la información solo sea accesible por personas autorizadas.',
     },
     {
-      termino: 'CRM',
+      termino: 'Cortafuegos',
       significado:
-        'sistema que permite gestionar las relaciones y la información de los clientes.',
+        'dispositivo o <em>software</em> que controla y filtra el tráfico de red para proteger sistemas contra accesos indebidos.',
     },
     {
-      termino: 'Dashboard',
+      termino: 'Datos',
       significado:
-        'panel visual que muestra indicadores clave de rendimiento en tiempo real.',
+        'representación simbólica de hechos, cifras o información que puede ser procesada por sistemas informáticos.',
     },
     {
-      termino: 'Data Mining',
+      termino: 'Disponibilidad',
       significado:
-        'proceso de extracción de patrones útiles desde grandes conjuntos de datos.',
+        '<em>garantía</em> de que la información y los servicios estén accesibles y operativos cuando los usuarios los necesiten.',
     },
     {
-      termino: 'Data Warehouse',
+      termino: 'Encriptación',
       significado:
-        'almacén centralizado que integra datos provenientes de diversas fuentes para su análisis.',
+        '<em>técnica</em> que convierte la información en un formato ilegible para protegerla durante su transmisión o almacenamiento.',
     },
     {
-      termino: 'ERP',
+      termino: 'Gestión de riesgos',
       significado:
-        'sistema de planificación de recursos empresariales que integra la información de las distintas áreas de la organización.',
+        'proceso de identificar, analizar y mitigar amenazas que pueden afectar los activos tecnológicos de una organización.',
     },
     {
-      termino: 'Indicador clave (KPI)',
+      termino: 'Integridad',
       significado:
-        'medida que evalúa el desempeño de una actividad o proceso en relación con sus objetivos.',
+        'propiedad que asegura que la información se mantiene completa y sin alteraciones no autorizadas.',
     },
     {
-      termino: 'Integración de sistemas',
+      termino: 'Malware',
       significado:
-        'conexión y coordinación de sistemas diferentes para que funcionen como uno solo.',
+        '<em>software</em> malicioso diseñado para dañar, <em>infiltrarse</em> o robar información de los sistemas informáticos.',
     },
     {
-      termino: 'Inteligencia artificial',
+      termino: 'Normativa',
       significado:
-        'simulación de procesos de inteligencia humana mediante sistemas computacionales.',
+        '<em>conjunto</em> de reglas y estándares que regulan la protección y el uso seguro de la tecnología en una organización.',
     },
     {
-      termino: 'Interoperabilidad',
+      termino: 'Phishing',
       significado:
-        'capacidad de diferentes sistemas para comunicarse y compartir datos de manera efectiva.',
+        '<em>técnica</em> de fraude digital que busca obtener información confidencial engañando al usuario a través de correos o sitios falsos.',
     },
     {
-      termino: 'Power BI',
+      termino: 'Red',
       significado:
-        'herramienta de Microsoft para la visualización de datos y creación de informes interactivos.',
+        '<em>conjunto</em> de dispositivos interconectados que comparten recursos e información entre sí.',
     },
     {
-      termino: 'Toma de decisiones',
+      termino: 'Sistema de información',
       significado:
-        'proceso mediante el cual se elige una acción entre varias posibles.',
+        '<em>conjunto</em> organizado de elementos que recopilan, procesan, almacenan y distribuyen información para apoyar decisiones empresariales.',
     },
     {
-      termino: 'Transformación digital',
+      termino: 'Vulnerabilidad',
       significado:
-        'proceso de adopción de tecnologías digitales para mejorar procesos empresariales.',
-    },
-    {
-      termino: 'Visualización de datos',
-      significado:
-        'representación gráfica de información para facilitar su comprensión.',
+        'debilidad en un sistema que puede ser <em>explotada</em> por una amenaza para comprometer su seguridad.',
     },
   ],
 }

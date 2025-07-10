@@ -234,7 +234,7 @@
 
             p.mb-4(data-aos="fade-right") Se invita a leer el documento #[em Estudio de caso resuelto – Fundamentos de bases de datos], donde se aborda la optimización de la gestión de clientes en la empresa  Servicios Logísticos Integrados S.A.S.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -540,7 +540,68 @@
         
 
           
-    
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://doi.org/10.33975/riuq.v0i33n1.514" target="_blank" rel="noopener noreferrer") Barón Ramírez, E., et al. (2021). La inteligencia de negocios y la analítica de datos en los procesos empresariales. Revista de Investigaciones Universidad del Quindío, 33(1), 132-139.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://mlaj-revista.org/index.php/mlajournal/article/download/47/135/241" target="_blank" rel="noopener noreferrer") Baldeón Palpa, R., et al. (2023). Inteligencia de negocios para la toma de decisiones. MLAj Revista.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.tableau.com/es-es/reports/business-intelligence-trends/data-curation" target="_blank" rel="noopener noreferrer") Tableau. (2019). Las 10 tendencias principales de inteligencia de negocios para 2019.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://volaya.github.io/libro-sig/chapters/Bases_datos.html" target="_blank" rel="noopener noreferrer") Volaya, V. (2024). Fundamentos de bases de datos.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos" target="_blank" rel="noopener noreferrer") Wikipedia. (2023). Sistema de gestión de bases de datos.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://es.wikipedia.org/wiki/Base_de_datos_relacional" target="_blank" rel="noopener noreferrer") Wikipedia. (2023). Base de datos relacional.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_datos" target="_blank" rel="noopener noreferrer") Wikipedia. (2023). Gestión de datos.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.grupohasten.com/big-data-y-analisis-predictivo-en-la-toma-de-decisiones-empresariales/" target="_blank" rel="noopener noreferrer") Grupo Hasten. (2024). Big Data y análisis predictivo en la toma de decisiones empresariales.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.deloitte.com/latam/es/Industries/tmt/perspectives/big-data-y-analisis-predictivo.html" target="_blank" rel="noopener noreferrer") Deloitte LATAM. (2025). Big data y análisis predictivo.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://aws.amazon.com/es/what-is/predictive-analytics/" target="_blank" rel="noopener noreferrer") AWS. (2025). ¿Qué es el análisis predictivo?.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.tableau.com/es-mx/learn/articles/business-intelligence" target="_blank" rel="noopener noreferrer") Tableau. (2024). Inteligencia de negocios: qué es y por qué es importante.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://es.wikipedia.org/wiki/Herramientas_de_inteligencia_de_negocios" target="_blank" rel="noopener noreferrer") Wikipedia. (2023). Herramientas de inteligencia de negocios.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=9CMPP1Isxd4" target="_blank" rel="noopener noreferrer") S. R. (2020, 21 de mayo). Inteligencia de negocios. [Vídeo] YouTube.
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
         
         
     
