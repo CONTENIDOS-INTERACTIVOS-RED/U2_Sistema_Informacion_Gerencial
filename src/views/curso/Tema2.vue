@@ -437,23 +437,23 @@
     
             SlyderF(columnas="col-12 col-lg-6")
               .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/24.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema2/24.svg' alt='AvatarTop' style="height: 95px").mx-auto.mb-3
                 h4.text-center.mb-4 Power BI
                 p.text-center De Microsoft; permite crear informes interactivos y se integra con el ecosistema Office.
               .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/25.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema2/25.svg' alt='AvatarTop' style="height: 95px").mx-auto.mb-3
                 h4.text-center.mb-4 Tableau
                 p.text-center Reconocida por su facilidad de uso y potentes capacidades de visualización interactiva.
               .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/26.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema2/26.svg' alt='AvatarTop' style="height: 95px").mx-auto.mb-3
                 h4.text-center.mb-4 QlikView
                 p.text-center Ofrece análisis en tiempo real y una interfaz intuitiva para la exploración de datos.
               .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/27.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema2/27.svg' alt='AvatarTop' style="height: 95px").mx-auto.mb-3
                 h4.text-center.mb-4 SAP BusinessObjects
                 p.text-center Suite robusta para análisis, generación de informes y gestión del rendimiento empresarial.
               .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema2/28.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema2/28.svg' alt='AvatarTop' style="height: 95px").mx-auto.mb-3
                 h4.text-center.mb-4 Pentaho
                 p.text-center Plataforma #[em open source] que integra análisis, minería de datos e informes.
 
