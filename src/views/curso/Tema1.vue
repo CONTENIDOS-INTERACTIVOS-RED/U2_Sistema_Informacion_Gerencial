@@ -7,10 +7,10 @@
       .col-lg-8
         p(data-aos="fade-left").mb-4 En el escenario corporativo contemporáneo, marcado por la acelerada evolución tecnológica, la infraestructura de tecnología de la información (TI) se ha establecido como un elemento indispensable para la competitividad y la eficiencia de la organización. Esta infraestructura comprende componentes tanto físicos como virtuales, tales como servidores, redes, software y servicios en la nube, los cuales permiten a las empresas operar de manera eficaz y adaptarse a las exigencias de mercado. 
     
-        .bg-color-1.p-4(data-aos="fade-left").mb-4
+        .bg-color-2.p-4.mb-4
           .row.align-items-start
             .col-lg-auto
-              img(src="@/assets/curso/tema1/icono.svg", style="max-width: 90px").mx-auto
+              img(src="@/assets/curso/tema1/1.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 La implementación de tecnologías emergentes como la inteligencia artificial, el Internet de las Cosas (IoT) y la computación en la nube, ha revolucionado la forma en que las organizaciones administran sus recursos y procesos. Estos avances tecnológicos promueven la automatización de tareas, el análisis predictivo y la toma de decisiones fundamentadas en datos, lo que conduce a una mayor agilidad y capacidad de respuesta ante las fluctuaciones del entorno. Adicionalmente, la instauración de una infraestructura de tecnología de la información sólida y adaptable otorga a las empresas la capacidad de mejorar la experiencia del cliente, optimizar la cadena de suministro y promover la innovación en productos y servicios.
     
@@ -20,14 +20,14 @@
 
 
     .row.mb-5
-      .col-lg-5
+      .col-lg-4
         figure
           img(src="@/assets/curso/tema1/3.png", data-aos="zoom-in")
-      .col-lg-7
+      .col-lg-8
 
         p(data-aos="fade-left").mb-4 La virtualización y los servicios basados en la nube proporcionan escalabilidad y disminución de costos operativos, al mismo tiempo que aseguran la continuidad de la empresa y la protección de la información. En este escenario, resulta esencial que los administradores futuros comprendan la relevancia de la infraestructura de Tecnología de la Información y las tecnologías emergentes como instrumentos estratégicos para la consecución de los objetivos de la organización. 
     
-        .bg-color-2.p-4(data-aos="fade-left")
+        .bg-color-1.p-4(data-aos="fade-left")
           p.mb-0 La comprensión y administración correcta de estos recursos tecnológicos no solo fomentan la eficiencia operativa, sino que también brindan nuevas oportunidades de crecimiento y diferenciación en un mercado de alta competitividad.
 
 
@@ -82,13 +82,13 @@
               h5 Aplicaciones en la nube
               p Proporcionan acceso a recursos informáticos de manera remota, proporcionando flexibilidad y escalabilidad en la administración de la infraestructura tecnológica.
 
-    .bg-full-width.bg-color-2.mb-5
+    .bg-full-width.bg-color-10.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
           .col-lg-auto
             img(src="@/assets/curso/tema1/5.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0 La correcta administración de estos elementos es esencial para asegurar la seguridad, disponibilidad y eficiencia de los sistemas de información. Adicionalmente, una infraestructura tecnológica meticulosamente diseñada y mantenida aporta a la competitividad de la organización en un ambiente empresarial en constante evolución hacia la digitalización.
+            p.mb-0.text-white La correcta administración de estos elementos es esencial para asegurar la seguridad, disponibilidad y eficiencia de los sistemas de información. Adicionalmente, una infraestructura tecnológica meticulosamente diseñada y mantenida aporta a la competitividad de la organización en un ambiente empresarial en constante evolución hacia la digitalización.
 
     #t_1_2.titulo-segundo(data-aos="flip-up")
       h2 #[span 1.2] Tecnologías emergentes y su impacto en la competitividad empresarial
@@ -102,7 +102,7 @@
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/9lI7qpD3v8g?si=Y1EDjWRcT6hLiPUf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .bg-full-width.bg-color-2.mb-5
+    .bg-full-width.bg-color-9.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-4
@@ -122,9 +122,9 @@
 
     h2 Modelos de integración tecnológica en los sistemas de información gerencial
 
-    .row.mb-5
+    .row.mb-5.align-items-center
       .col-lg-8
-        .bg-color-1.p-4.mb-4(data-aos="fade-left")
+        .bg-color-2.p-4.mb-4(data-aos="fade-left")
           .row.align-items-start
             .col-lg-auto
               img(src="@/assets/curso/tema1/7.svg", style="max-width: 90px").mx-auto
@@ -187,10 +187,50 @@
             .col-lg
               p.mb-0 Las metas estratégicas de la organización
     
+    p Una integración tecnológica adecuada en los SIG no solo mejora el desempeño organizacional, sino que también sienta las bases para la innovación continua y la consolidación competitiva.
+
+    .titulo-figura.mb-2
+      h5 Tabla 1. 
+      span Modelos de integración tecnológica en los sistemas de información gerencial
+
     
-    
-    
-    
+    .tabla-a.color-acento-contenido.mb-5#Tabla1
+      table
+        thead
+          tr
+            th.bg-color-tabla.text-white Modelo de integración
+            th.bg-color-tabla.text-white Características principales
+            th.bg-color-tabla.text-white Ventajas
+            th.bg-color-tabla.text-white Ejemplo aplicado
+        tbody
+          tr
+            td
+              | <em>Point-to-Point</em> (P2P)
+            td Conexiones directas entre sistemas. Útil en entornos simples.
+            td Implementación rápida, bajo costo inicial.
+            td Una empresa pequeña enlaza su software contable y el sistema de facturación mediante una API directa.
+          tr
+            td
+              | <em>Hub-and-Spoke</em>
+            td Sistema central (hub) intermedia entre subsistemas periféricos (spokes).
+            td Control centralizado, menor complejidad de integración.
+            td Una universidad conecta matrícula, biblioteca y pagos con un servidor central.
+          tr
+            td
+              | <em>Enterprise Service Bus</em>
+            td Comunicación mediante un bus de servicios. Arquitectura escalable y estructurada.
+            td Alta flexibilidad, integración sólida.
+            td Un hospital enlaza historia clínica, farmacia y facturación para compartir datos en tiempo real.
+          tr
+            td Arquitectura SOA
+            td Servicios independientes con interfaces estándar.
+            td Reutilización de servicios, independencia funcional.
+            td Una empresa de logística gestiona rutas, pedidos y clientes mediante servicios web modulares.
+          tr
+            td Integración en la nube (<em>iPaaS</em>)
+            td Plataformas de integración como servicio.
+            td Escalabilidad, mínimo mantenimiento físico, acceso remoto.
+            td Una tienda virtual enlaza su comercio electrónico, inventario y CRM mediante plataformas como Zapier.
 
 
     .bg-full-width.border-top.color-primario
@@ -202,53 +242,31 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://doi.org/10.35381/gep.v8i9.52" target="_blank" rel="noopener noreferrer") De-Armas, L. M., & Chirino-García, R. C. (2023). Sistema de información gerencial como estrategia de éxito organizacional en las empresas del sector salud. Gestio et Productio, 5(9). 
-
- 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.innovaciondigital360.com/software/integracion-de-aplicaciones-empresariales-que-significa-y-los-retos-para-las-empresas/" target="_blank" rel="noopener noreferrer") InnovaciónDigital360. (2023). Integración de aplicaciones empresariales: qué significa y los retos para las empresas. 
-
+              a(href="https://www.redhat.com/es/topics/cloud-computing/what-is-it-infrastructure" target="_blank" rel="noopener noreferrer") Red Hat. (2024). ¿Qué es la infraestructura de TI y cuáles son sus componentes clave?.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.creative-tim.com/blog/educational-tech/top-enterprise-application-examples-for-every-organization/ " target="_blank" rel="noopener noreferrer") Creative Tim. (2023). Top 10 Enterprise Application Examples For Every Organization. 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://axial-erp.co/estudios-de-caso-implementaciones-exitosas-de-erp-y-lecciones-aprendidas/" target="_blank" rel="noopener noreferrer") Axial ERP. (s.f.). Estudios de Caso: Implementaciones exitosas de ERP y lecciones aprendidas.  
-
+              a(href="https://www.lanet.mx/infraestructura-informatica/" target="_blank" rel="noopener noreferrer") Lanet. (2024). La infraestructura informática: Clave para la transformación digital en empresas modernas.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.oracle.com/mx/erp/what-is-erp/erp-implementation-case-study/" target="_blank" rel="noopener noreferrer") Oracle México. (2023). 3 casos prácticos de implementación de sistemas de ERP. 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://ticnus.com/noticias/erp-y-crm/casos-de-exito-en-la-implementacion-de-erp-mejora-la-eficiencia-empresarial-y-aumenta-la-rentabilidad/ " target="_blank" rel="noopener noreferrer") TICNUS. (2024). Casos de Éxito en la Implementación de ERP: Mejora la Eficiencia Empresarial y Aumenta la Rentabilidad. 
-
+              a(href="https://www.docusign.com/es-mx/blog/evolucion-infraestructura-de-ti" target="_blank" rel="noopener noreferrer") Docusign. (2025). Descubre la evolución de la infraestructura de TI.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://es.wikipedia.org/wiki/Alephoo" target="_blank" rel="noopener noreferrer") Wikipedia. (2025). Alephoo. 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elpais.com/economia/horizonte-4-0/2024-12-05/gigantes-a-hombros-de-gigantes.html" target="_blank" rel="noopener noreferrer") El País. (2024). Gigantes a hombros de gigantes.  
-
+              a(href="https://www.ibm.com/es-es/topics/infrastructure" target="_blank" rel="noopener noreferrer") BM. (2024). ¿Qué es infraestructura de TI?.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.incotec.es/blog/como-gestionar-innovacion-empresarial/" target="_blank" rel="noopener noreferrer") Incotec. (2023). Cómo gestionar la innovación empresarial. 
+              a(href="https://blog.invgate.com/es/infraestructura-de-it" target="_blank" rel="noopener noreferrer") InvGate. (2024). Infraestructura de IT: Componentes principales y tipos.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.redalyc.org/pdf/5343/534366855008.pdf" target="_blank" rel="noopener noreferrer") Córdoba Castrillón, M. M. (2015). Implementación de tecnologías como estrategia para fortalecer la productividad y competitividad de las pymes de la confección en Medellín. Trilogía. Ciencia, Tecnología y Sociedad, 7(12), 105-119.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=0lbsqFeJTms" target="_blank" rel="noopener noreferrer") Ministerio TIC. (2021, 3 de agosto). Plan estratégico de tecnologías de la información-Fase 2. Ministerio TIC Colombia [Vídeo] YouTube.  
-
-
+              a(href="https://www.youtube.com/watch?v=ONeSKIMSNjE" target="_blank" rel="noopener noreferrer") Educar Portal (2019, 11 de julio). ¿Qué son las tecnologías emergentes? [Vídeo] YouTube.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

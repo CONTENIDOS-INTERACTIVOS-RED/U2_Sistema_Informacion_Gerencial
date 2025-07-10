@@ -1,8 +1,7 @@
 export default {
   global: {
     numeroUnidad: '2',
-    tituloUnidad:
-      'Infraestructura de la Tecnología de la Información',
+    tituloUnidad: 'Infraestructura de la Tecnología de la Información',
   },
   menuPrincipal: {
     menu: [

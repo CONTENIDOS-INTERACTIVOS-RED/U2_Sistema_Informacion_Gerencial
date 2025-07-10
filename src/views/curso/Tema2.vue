@@ -1,464 +1,551 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'2. Estrategias para la implementación de sistemas de información'")
+  BannerInterno(:subTitulo="'2. Gestión de datos e inteligencia de negocios'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
+
     .row.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+      .col-lg-8
+        p En el entorno corporativo actual, la gestión eficiente de datos se ha convertido en un factor esencial para la toma de decisiones estratégicas. La Inteligencia Empresarial (#[em Business Intelligence – BI]) permite transformar grandes volúmenes de datos en información valiosa, facilitando la identificación de oportunidades, la optimización de procesos y el fortalecimiento de la competitividad organizacional. La integración de BI en las entidades corporativas permite:
+      .col-lg-4
         figure
-          img(src="@/assets/curso/tema4/1.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        p.mb-5(data-aos="fade-left") En el entorno empresarial actual, caracterizado por la constante evolución tecnológica y la creciente competitividad, la implementación efectiva de sistemas de información (SI) se ha convertido en un factor determinante para el éxito organizacional. Estos sistemas no solo permiten automatizar procesos y gestionar datos de forma eficiente, sino que también constituyen una base sólida para la toma de decisiones estratégicas.
-    
-        .bg-color-3.p-4.mb-5(data-aos="fade-left")
-          .row.align-items-start
+          img(src="@/assets/curso/tema2/1.svg", alt="")
+
+
+    .row.justify-content-center.align-items-stretch.mb-4
+      .col-lg-4
+        .bg-color-1.p-4(data-aos="fade-left").h-100
+          .row.align-items-center
             .col-lg-auto
-              img(src="@/assets/curso/tema4/2.svg", style="max-width: 90px").mx-auto
+              img(src="@/assets/curso/tema2/2.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 La adopción de SI requiere una planificación cuidadosa y estrategias bien definidas que consideren las particularidades de cada organización. Es esencial alinear los sistemas con los objetivos estratégicos institucionales y garantizar el compromiso de la alta dirección para asegurar su éxito.
-        p La aplicación sectorial de estrategias de implementación es: 
+              p.mb-0 Analizar #[b patrones de comportamiento del cliente]
+
     
-    .bg-full-width.bg-fondo-1
-      .p-4.p-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-9
+      .col-lg-4
+        .bg-color-1.p-4(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema2/3.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Predecir #[b tendencias del mercado]
+    
+      .col-lg-4
+        .bg-color-1.p-4(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema2/4.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Optimizar la #[b eficiencia operativa]
+
+
+    p Estos sistemas incorporan herramientas de:
+
+
+    .bg-full-width.bg-color-5
+      .px-4.px-md-5.py-4
+        
+        .row.justify-content-center.align-items-stretch
+          .col-lg-6.mb-4(data-aos="zoom-in-up")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema2/5.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Análisis predictivo
+                p.mb-0 Permite anticipar escenarios futuros mediante modelos estadísticos y algoritmos de machine learning.
+          .col-lg-6.mb-4(data-aos="zoom-in-down")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema2/6.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Análisis prescriptivo
+                p.mb-0 Sugiere acciones concretas para alcanzar objetivos, basándose en simulaciones y análisis de impacto.
+
+        
+    p.mb-4 Además, una gestión adecuada de los datos asegura:
+
+    .row.mb-5
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema2/7.png", data-aos="zoom-in")
+      .col-lg-8
+        .bg-color-3.p-4(data-aos="fade-left").mb-4
+          ul.lista-ul--color.color-dark.mb-0
+            li.mb-0
+              i.fas.fa-arrow-circle-right
+              | #[b Calidad:] Información precisa, actualizada y coherente.
+            li.mb-0
+              i.fas.fa-arrow-circle-right
+              | #[b Integridad:] Datos completos y sin inconsistencias.
+            li.mb-0
+              i.fas.fa-arrow-circle-right
+              | #[b Seguridad:] Protección frente a accesos no autorizados y cumplimiento normativo.
+                    
+    
+        p(data-aos="fade-left").mb-4 Estos elementos son fundamentales para preservar la confianza de los interesados y cumplir con las regulaciones vigentes. Finalmente, la sinergia entre una administración de datos robusta y las herramientas de BI otorga a las organizaciones una ventaja competitiva significativa, especialmente en un mercado cada vez más dinámico y orientado a la información.
+    
+    #t_2_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.1] Fundamentos de bases de datos y gestión de la información
+
+    .bg-full-width.bg-color-8
+      .px-4.px-md-5.py-4
+
+        .row.mb-5
+          .col-lg-8
+            p(data-aos="fade-left").mb-5 En el entorno corporativo actual, la información se ha convertido en uno de los activos más valiosos. La capacidad para almacenar, organizar y acceder eficazmente a los datos es esencial para la toma de decisiones tanto estratégicas como operativas. En este contexto, las bases de datos juegan un papel clave al ofrecer una estructura sistemática para administrar dicha información.
+
+            h2 Concepto y utilidad de las bases de datos
+
+        
+            p(data-aos="fade-left").mb-5 Una #[b base de datos] es un conjunto de datos estructurados que se almacenan de manera organizada para facilitar su acceso, manipulación y gestión. Puede incluir distintos tipos de información, como datos numéricos, textos o elementos multimedia, y se utiliza en múltiples áreas empresariales: gestión de clientes, inventarios, recursos humanos, entre otros.
+
+            h2 Sistemas de Gestión de Bases de Datos (SGBD)
+        
+            p(data-aos="fade-left") Los Sistemas de Gestión de Bases de Datos (SGBD) son herramientas que permiten crear, administrar y manipular bases de datos. Ofrecen funcionalidades para:
+
+
+          .col-lg-4.d-none.d-sm-block
+            figure
+              img(src="@/assets/curso/tema2/8.png", data-aos="zoom-in").mb-4.mb-lg-0
+        
+
+    
+        .row.justify-content-center.align-items-stretch.mb-4
+          .col-lg-3
+            .bg-color-1.p-4(data-aos="fade-left").h-100
+              .row.align-items-center
+                .col-lg-auto
+                  img(src="@/assets/curso/tema2/9.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  p.mb-0 Definir estructuras de datos
+        
+          .col-lg-3
+            .bg-color-1.p-4(data-aos="fade-left").h-100
+              .row.align-items-center
+                .col-lg-auto
+                  img(src="@/assets/curso/tema2/10.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  p.mb-0 Ejecutar consultas
+        
+          .col-lg-3
+            .bg-color-1.p-4(data-aos="fade-left").h-100
+              .row.align-items-center
+                .col-lg-auto
+                  img(src="@/assets/curso/tema2/11.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  p.mb-0 Garantizar la integridad de la información
+        
+          .col-lg-3
+            .bg-color-1.p-4(data-aos="fade-left").h-100
+              .row.align-items-center
+                .col-lg-auto
+                  img(src="@/assets/curso/tema2/12.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  p.mb-0 Controlar el acceso de los usuarios
+
+
+    p.mb-5 Algunos de los SGBD más utilizados en el ámbito corporativo son #[b MySQL], #[b PostgreSQL] y #[b Oracle Database].
+
+    h2 Modelos de bases de datos
+    
+    p(data-aos="fade-left").mb-5 Existen distintos modelos para estructurar bases de datos. El modelo relacional es uno de los más comunes, ya que organiza la información en tablas (filas y columnas), lo cual facilita establecer relaciones entre los datos.
+
+    .bg-full-width.bg-color-info.mb-5
+      .px-4.px-md-5.pt-4
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-10
             ImagenInfografica.color-secundario
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/tema4/3.svg', alt='', style="max-width: 1106px;").mx-auto
+                  img(src='@/assets/curso/tema2/info.svg', alt='', style="max-width: 918px;").mx-auto
     
-              .bg-color-white.box-shadow.p-3(x="15%" y="74.5%" numero="+")
-                h5 Salud
-                p Implementación de sistemas de información gerencial como herramienta para mejorar la calidad del servicio y la satisfacción del usuario (De-Armas y Chirino-García, 2023).
+              .bg-color-white.box-shadow.p-3(x="7.5%" y="83.5%" numero="+")
+                h5 Relacional
+                p Organiza datos en tablas relacionadas; basado en álgebra relacional.
     
-              .bg-color-white.box-shadow.p-3(x="44%" y="74.5%" numero="+")
-                h5 Educación
-                p Integración de tecnologías emergentes como Big Data para analizar indicadores de eficiencia y optimizar la gestión institucional y la calidad educativa (Baig et al., 2020).
+              .bg-color-white.box-shadow.p-3(x="7.5%" y="61%" numero="+")
+                h5 Jerárquico
+                p Estructura los datos en forma de árbol; cada elemento tiene un único padre.
     
-              .bg-color-white.box-shadow.p-3(x="90.5%" y="74.5%" numero="+")
-                h5 Gestión informática
-                p Uso de SI para la gestión de recursos informáticos, promoviendo la automatización de procesos y el fortalecimiento de la infraestructura tecnológica (Romero et al., 2023).
+              .bg-color-white.box-shadow.p-3(x="40.3%" y="5%" numero="+")
+                h5 Orientado a objetos
+                p Almacena datos como objetos, combinando características de programación orientada a objetos.
+    
+              .bg-color-white.box-shadow.p-3(x="92.5%" y="61%" numero="+")
+                h5 De red
+                p Similar al jerárquico, pero permite múltiples relaciones entre registros.
+    
+              .bg-color-white.box-shadow.p-3(x="92.5%" y="83.5%" numero="+")
+                h5 NoSQL
+                p Diseñado para datos no estructurados; altamente escalable, ideal para big data.
+    
+    h2 Gestión de la información
 
-    .bg-full-width.bg-color-3.mb-5
-      .px-4.px-md-5.py-4
-        p.mb-0 Estos ejemplos subrayan la <b>necesidad de adaptar las estrategias</b> de implementación de SI según las características y demandas de cada sector.
-    
-    h2.mb-5(data-aos="fade-left") Elementos clave en la implementación de SI
-
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
+    .row.mb-5.align-items-center
+      .col-lg-4
         figure
-          img(src="@/assets/curso/tema4/4.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/13.png", data-aos="zoom-in")
       .col-lg-8
-        p.mb-5(data-aos="fade-left") Para una gestión exitosa de estos procesos, es fundamental que los futuros profesionales en Administración de Empresas desarrollen competencias específicas en torno a los siguientes elementos:
+        p(data-aos="fade-left").mb-4 La #[b gestión de la información] abarca la planificación, supervisión y control de los recursos informativos de una organización. Incluye todas las etapas del ciclo de vida de la información: desde su recolección y almacenamiento, hasta su análisis y distribución. Una administración eficaz de la información permite:
     
-        .bg-color-7.p-4.mb-3(data-aos="fade-left")
-          ul.lista-ul--color
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Evaluación de necesidades organizacionales.
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Selección de tecnologías adecuadas.
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Gestión del cambio.
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Capacitación del personal.
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Desarrollo de habilidades blandas como el liderazgo, la comunicación efectiva y la adaptabilidad.
-        p Al finalizar esta unidad, se espera que los estudiantes sean capaces de diseñar e implementar estrategias de SI alineadas con los objetivos estratégicos de las organizaciones, contribuyendo así a su competitividad y sostenibilidad en el mercado actual.
+        .bg-color-3.p-4(data-aos="fade-left")
+          ul.lista-ul--color.color-dark.mb-0
+            li.mb-0
+              i.fas.fa-arrow-circle-right
+              | Mejorar la eficiencia operativa.
+            li.mb-0
+              i.fas.fa-arrow-circle-right
+              | Cumplir con regulaciones legales.
+            li.mb-0
+              i.fas.fa-arrow-circle-right
+              | Obtener ventajas competitivas.
 
+    h2 Aplicaciones prácticas
 
-    #t_2_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.1] Factores críticos para una implementación efectiva de SI en la empresa
+    .row.mb-5.align-items-center
+      .col-lg-8
+        p(data-aos="fade-left") En la práctica corporativa, las bases de datos se utilizan para múltiples funciones como:
+        
+        .bg-color-2.p-4(data-aos="fade-left").mb-4
+          ul.lista-ul--color.color-dark.mb-0
+            li.mb-0
+              i.fas.fa-arrow-circle-right
+              | Seguimiento de ventas
+            li.mb-0
+              i.fas.fa-arrow-circle-right
+              | Análisis de mercados
+            li.mb-0
+              i.fas.fa-arrow-circle-right
+              | Gestión de relaciones con clientes (CRM)
 
-    p.mb-4 La implementación efectiva de sistemas de información en las organizaciones es un proceso complejo que exige una planificación meticulosa y la atención a múltiples factores críticos de éxito. A continuación, se describen los principales elementos identificados en estudios recientes, organizados para facilitar su comprensión:
-
-    .row.align-items-start.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+        p(data-aos="fade-left").mb-4 Por ejemplo, una empresa puede usar su base de datos para almacenar información detallada de sus clientes, lo que facilita la #[b personalización de campañas de mercadotecnia] y #[b mejora la experiencia del cliente].
+    
+      .col-lg-4
         figure
-          img(src="@/assets/curso/tema4/5.png", alt="").mb-4.mb-lg-0
-      .col-lg-8.order-lg-1
-    
-        AcordionA(tipo="b")
-          .div(titulo="Compromiso de la alta dirección")
-            p Esencial para asignar recursos, definir objetivos claros y liderar el cambio. La falta de apoyo puede generar resistencia y fallas en la implementación.
-    
-          .div(titulo="Participación de los usuarios finales")
-            p Involucrarlos desde el inicio permite adaptar el SI a las necesidades reales, mejorar su aceptación y reducir la resistencia al cambio.
-    
-          .div(titulo="Gestión del cambio organizacional")
-            p Implica comunicar beneficios, capacitar al personal y gestionar expectativas. La transformación de procesos requiere un enfoque estructurado de cambio.
-    
-          .div(titulo="Planificación y evaluación de requerimientos")
-            p Una planificación detallada evita desviaciones en costos, plazos y alcance. Identificar requisitos y riesgos anticipadamente asegura la alineación con los objetivos.
+          img(src="@/assets/curso/tema2/14.png", data-aos="zoom-in")
 
-          .div(titulo="Capacitación y desarrollo de competencias")
-            p La formación continua mejora la eficiencia en el uso del SI. Debe adaptarse a los distintos perfiles de usuarios y fomentar habilidades técnicas y <em>soft skills</em>.
-    
-          .div(titulo="Evaluación y monitoreo continuo")
-            p Permite medir el desempeño del sistema, detectar oportunidades de mejora y mantener la alineación con los objetivos estratégicos. Se evalúan calidad del sistema, satisfacción del usuario y beneficios netos.
-    
-    .bg-full-width.bg-color-10.mb-5
-      .px-4.px-md-5.py-4
-        .row.align-items-center
-          .col-lg-auto
-            img(src="@/assets/curso/tema4/6.svg", style="max-width: 90px").mx-auto
-          .col-lg
-            p.mb-0.text-white La atención a estos factores resulta esencial para garantizar el éxito de los sistemas de información, ya que contribuyen de forma directa al cumplimiento de los objetivos estratégicos y al fortalecimiento de la competitividad organizacional.
-    
-    h2(data-aos="fade-left") Estudio de caso: implementación de un sistema de información en una empresa de logística
-    p.mb-5 Este estudio de caso presenta la experiencia de TransLogística S.A.S., una empresa dedicada al transporte de mercancías a nivel nacional, en la implementación de un Sistema de Información (SI) con el objetivo de optimizar la trazabilidad de envíos, mejorar la atención al cliente y reducir costos operativos. El proyecto contempló la implementación de un sistema ERP integrado con un módulo CRM.
-
-    .bg-full-width.bg-fondo-slider
-      .p-4.p-md-5
-        SlyderA(tipo="b").bg-white
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema4/7.png")
-            .col-lg-7
-              h5 Compromiso de la alta dirección
-              p La dirección participó activamente desde la planeación. Se asignó presupuesto, se definieron indicadores de éxito y se creó un comité estratégico para el seguimiento.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema4/8.png")
-            .col-lg-7
-              h5 Participación de los usuarios finales
-              p Se organizaron grupos focales por áreas operativas. Los usuarios participaron en el diseño del sistema, lo que incrementó el sentido de pertenencia y disminuyó la resistencia.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema4/9.png")
-            .col-lg-7
-              h5 Gestión del cambio organizacional
-              p Se ejecutó un plan de cambio que incluyó comunicaciones internas, sesiones informativas y capacitaciones con ejemplos reales de mejora, como la reducción en tiempos de entrega.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema4/10.png")
-            .col-lg-7
-              h5  Planificación y evaluación de requerimientos
-              p Se realizó un diagnóstico de procesos internos y se definieron requerimientos funcionales y técnicos antes de seleccionar el sistema, evitando módulos innecesarios.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema4/11.png")
-            .col-lg-7
-              h5 Capacitación y desarrollo de competencias
-              p Se ofrecieron capacitaciones específicas por rol, acompañadas de manuales y simulaciones. Se promovió el trabajo colaborativo y el desarrollo de <em>soft skills</em>.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema4/12.png")
-            .col-lg-7
-              h5 Evaluación y monitoreo continuo
-              p Se establecieron KPIs para monitoreo posterior. En el primer semestre se evidenció una mejora del 25 % en eficiencia operativa y un aumento del 30 % en la satisfacción del cliente.
-
-    .bg-full-width.bg-color-10.mb-5
-      .px-4.px-md-5.py-4
-        .row.align-items-center
-          .col-lg-auto
-            img(src="@/assets/curso/tema4/13.svg", style="max-width: 90px").mx-auto
-          .col-lg
-            p.mb-0.text-white Este caso demuestra que el éxito en la implementación de un sistema de información no depende únicamente de la tecnología adoptada, sino del enfoque estratégico y humano aplicado. En TransLogística S.A.S., la participación activa de todos los niveles, la planificación rigurosa y la gestión del cambio organizacional fueron los pilares fundamentales que aseguraron resultados positivos y medibles.
-    
-    #t_2_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.2] Retos organizacionales y soluciones en procesos de transformación digital
-
-    .row.mb-5
-      .col-lg-2.order-lg-2.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema4/14.svg", data-aos="zoom-in")
-      .col-lg-10.order-lg-1
-        p(data-aos="fade-left") La transformación digital representa un proceso complejo que implica cambios profundos en la cultura, la estructura y los procesos de las organizaciones. No se trata únicamente de incorporar nuevas tecnologías, sino de una reconfiguración integral que exige una gestión eficaz del cambio, una visión estratégica clara y la actualización continua de competencias. A continuación, se presentan los principales retos organizacionales asociados a este proceso, así como las soluciones más efectivas para abordarlos:
-
-    .row.align-items-start.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema4/15.png", alt="").mb-4.mb-lg-0
-      .col-lg-8.order-lg-1
-    
-        AcordionA(tipo="b")
-          .div(titulo="Resistencia al cambio cultural")
-            p La adopción de nuevas tecnologías suele enfrentar resistencia por parte de los empleados, quienes pueden sentirse inseguros ante la posibilidad de perder sus empleos o enfrentar dificultades para adaptarse a los nuevos sistemas. Para mitigar esta resistencia, es fundamental implementar programas de formación continua y comunicar claramente los beneficios de la transformación digital, fomentando una cultura organizacional abierta al cambio.
-    
-          .div(titulo="Integración de sistemas heredados")
-            p Muchas organizaciones cuentan con sistemas heredados que no son compatibles con las nuevas tecnologías, lo que dificulta la integración y puede generar ineficiencias. Una solución efectiva consiste en adoptar arquitecturas modulares y utilizar interfaces de programación de aplicaciones (APIs) que permitan la interoperabilidad entre sistemas antiguos y nuevos sin necesidad de reemplazarlos por completo.
-    
-          .div(titulo="Brechas en habilidades digitales")
-            p La falta de competencias digitales entre los empleados puede limitar el aprovechamiento de las nuevas tecnologías. Para superar esta brecha, es esencial invertir en programas de capacitación y desarrollo de habilidades digitales. Además, se debe fomentar una cultura de aprendizaje continuo, que permita al personal adaptarse a los cambios tecnológicos y enfrentar los desafíos emergentes del entorno digital.
-    
-          .div(titulo="Ciberseguridad y protección de datos")
-            p La digitalización aumenta la exposición a riesgos de ciberseguridad y vulnerabilidades en la protección de datos. Es necesario implementar políticas de seguridad robustas, realizar auditorías periódicas para detectar fallas o debilidades, y educar a los empleados sobre prácticas seguras. Estas medidas son clave para proteger la información sensible y mantener la confianza de los clientes y usuarios.
-
-          .div(titulo="Liderazgo y visión estratégica")
-            p La falta de liderazgo comprometido y una visión estratégica clara pueden obstaculizar el éxito de la transformación digital. Los líderes deben asumir un rol activo en el proceso, definiendo objetivos claros, alineando la transformación con la estrategia organizacional y motivando a los empleados a participar activamente en el cambio. El liderazgo efectivo es un factor decisivo para guiar a la organización hacia una cultura digital sólida y sostenible.
-    
-    .bg-full-width.bg-color-10.mb-5
-      .px-4.px-md-5.py-4
-        .row.align-items-center
-          .col-lg-auto
-            img(src="@/assets/curso/tema4/16.svg", style="max-width: 90px").mx-auto
-          .col-lg
-            p.mb-0.text-white Abordar estos retos no implica únicamente soluciones tecnológicas. Se requiere un enfoque integral que combine el desarrollo del capital humano, el fortalecimiento del liderazgo organizacional y la creación de una cultura institucional receptiva al cambio. Al aplicar estas estrategias de forma coordinada, las organizaciones estarán en condiciones de avanzar hacia una transformación digital exitosa, mejorar su competitividad y adaptarse con agilidad a las demandas del entorno actual.
-    
-    #t_2_3.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.3] Integración de sistemas en la empresa digital: interoperabilidad y alineación estratégica
-
-    p.mb-4 En la era digital, las empresas enfrentan el desafío de integrar diversos sistemas tecnológicos con el fin de mejorar su eficiencia operativa y alcanzar una ventaja competitiva sostenible. La interoperabilidad y la alineación estratégica son componentes esenciales para lograr una integración tecnológica efectiva que responda a las necesidades dinámicas del entorno empresarial.
-
-     TabsC.color-acento-contenido.mb-5
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Interoperabilidad" :icon="require('@/assets/bullets/4.svg')")
-        .row.justify-content-center.align-items-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-lg-2
-            h4 Interoperabilidad
-            p Se refiere a la capacidad de diferentes sistemas y organizaciones para trabajar conjuntamente de manera efectiva, compartiendo información y procesos sin restricciones. Esta capacidad facilita la integración de nuevas tecnologías, promoviendo la innovación y aumentando la competitividad organizacional.
-    
-          .col-md-8.col-lg-5.col-xl-4.mb-3.mb-lg-0.order-lg-1
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema4/17.png', alt='')
-    
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Alineación estratégica" :icon="require('@/assets/bullets/5.svg')")
-        .row.justify-content-center.align-items-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-lg-2
-            h4 Alineación estratégica
-            p Implica que las decisiones tecnológicas estén directamente vinculadas con la visión, misión y objetivos estratégicos de la organización. Una arquitectura empresarial bien definida permite estructurar y gestionar tanto la infraestructura tecnológica como los procesos de negocio de forma coherente.
-    
-          .col-md-8.col-lg-5.col-xl-4.mb-3.mb-lg-0.order-lg-1
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema4/18.png', alt='')
-
-    .bg-full-width.bg-color-8
-      .p-4.p-md-5
-        .row.mb-5
-          .col-lg-4.order-lg-2.mb-3.mb-lg-0
-            figure
-              img(src="@/assets/curso/tema4/19.png", data-aos="zoom-in")
-          .col-lg-8.order-lg-1
-            h2(data-aos="fade-left") Ejemplo práctico
-            p(data-aos="fade-left") Una empresa del sector logístico logró integrar su sistema de gestión de almacenes con su plataforma de atención al cliente mediante el uso de APIs. Esta interoperabilidad permitió que los operadores accedieran a información sobre inventarios, rutas de distribución y solicitudes de clientes desde un único sistema. Como resultado, se redujeron los tiempos de respuesta en un 35 % y se mejoró significativamente la satisfacción del cliente.
-            h2(data-aos="fade-left") Desarrollo de habilidades blandas
-            p(data-aos="fade-left") El proceso de integración de sistemas no solo tiene un impacto técnico, sino también organizacional, ya que fomenta el desarrollo de habilidades blandas como la colaboración interdisciplinaria, la resolución de problemas y la comunicación efectiva. Estas competencias son esenciales para los administradores que lideran proyectos tecnológicos, ya que contribuyen a su sostenibilidad en el tiempo y a la cohesión de los equipos involucrados.
-    
-    .bg-full-width.bg-color-9.mb-5
+    .bg-full-width.bg-color-9.mb-lg-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
-          .col-lg-7.order-2
-            h2.mb-4(data-aos="flip-up") Inteligencia de negocios y análisis de datos
-            p.mb-4(data-aos="fade-right") Se invita a leer el documento Inteligencia de negocios y análisis de datos, donde se aborda el papel fundamental de la inteligencia empresarial y el análisis de datos en la gestión moderna.
+          .col-lg-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema2/15.png', alt='')
+    
+          .col-lg-8
+            h2.mb-4(data-aos="flip-up") Estudio de caso resuelto – Fundamentos de bases de datos
+
+            p.mb-4(data-aos="fade-right") Se invita a leer el documento #[em Estudio de caso resuelto – Fundamentos de bases de datos], donde se aborda la optimización de la gestión de clientes en la empresa  Servicios Logísticos Integrados S.A.S.
     
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Inteligencia de negocios y análisis de datos.
+                p <strong>Anexo. </strong> Estudio de caso resuelto – Fundamentos de bases de datos
     
-          .col-lg-5.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema4/20.png', alt='')
-        
-   
+    
+    
+    #t_2_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.2] Introducción al #[em Big Data] y análisis predictivo en la toma de decisiones
+    
+    .row.mb-5.align-items-center
+      .col-lg-8
+        p(data-aos="fade-left") En el entorno corporativo actual, caracterizado por una creciente digitalización y una generación masiva de datos, la capacidad para recolectar, procesar y analizar información se ha convertido en un elemento crucial para mantener la competitividad organizacional. El concepto de #[b Big Data] se refiere a la gestión de grandes volúmenes de datos que, por su diversidad, velocidad y volumen, exceden las capacidades de las herramientas tradicionales de procesamiento.
+
+        .bg-color-1.p-4.mb-4
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema2/16.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Estos datos provienen de múltiples fuentes, como redes sociales, sensores del Internet of Things (IoT) y transacciones comerciales. Su correcta explotación ofrece una oportunidad sin precedentes para obtener percepciones valiosas que respalden la toma de decisiones estratégicas.
+
+        h2 ¿Qué es el análisis predictivo?
+
+        p El análisis predictivo es una disciplina avanzada del análisis de datos que utiliza técnicas estadísticas, algoritmos de #[em machine learning] y minería de datos para identificar patrones y anticipar eventos futuros. Esta metodología permite a las organizaciones prever tendencias de mercado, comportamientos de consumidores y riesgos operativos, habilitando una #[b planificación proactiva y eficaz].
 
 
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema2/17.png", data-aos="zoom-in")
+
+    h2(data-aos="flip-up").mb-4 Beneficios de integrar Big Data y análisis predictivo
 
 
-
-
-
-    .bg-full-width.border-top.actividad.bg-color-actividad
-      .p-4.p-md-5
-        #Actividad                
-          <Actividad :cuestionario="cuestionario"/>
-
-    .bg-full-width.border-top.color-primario
-      .p-4.p-md-5
-        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
-        .row.material-complementario
-          .col-12.col-md-6.col-lg-7
-            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.abacademies.org/articles/MULTIPLE-CORRESPONDENCE-ANALYSIS-OF-CRITICAL-SUCCESS-FACTORS-FOR-ENTERPRISE-RESOURCE-PLANNING-SYSTEM-IMPLEMENTATION-1532-5806-23-3-190.pdfAllied Business Academies" target="_blank" rel="noopener noreferrer") Epizitone, A., & Olugbara, O. O. (2020). Multiple correspondence analysis of critical success factors for enterprise resource planning system implementation. Journal of Management Information and Decision Sciences, 23(3), 176-190. 
-
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://luceit.com/blog/innovacion-y-tecnologia/los-retos-mas-comunes-en-la-transformacion-digital-de-las-empresas-y-como-superarlos/ " target="_blank" rel="noopener noreferrer") Luce IT. (2024). Los retos más comunes en la transformación digital de las empresas (y cómo superarlos). 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://datacloud-latam.com/retos-transformacion-digital/ " target="_blank" rel="noopener noreferrer") DataCloud Latam. (2024.). Retos de la transformación digital: cuáles son los desafíos más comunes y cómo afrontarlos. 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://blog.wearedrew.co/es/tech/software-insights/tecnologia/desafios-de-la-transformacion-digital-como-superarlos-en-2025" target="_blank" rel="noopener noreferrer") We Are Drew. (2025). Desafíos de la transformación digital: cómo superarlos en 2025. 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elcapitalfinanciero.com/transformacion-digital-en-el-sector-salud-retos-de-ciberseguridad/ " target="_blank" rel="noopener noreferrer") El Capital Financiero. (2025). Transformación digital en el sector salud: Retos de ciberseguridad. 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.emerald.com/insight/content/doi/10.1108/dts-08-2023-0061/full/html" target="_blank" rel="noopener noreferrer") Emerald Insight. (2023). Organizational digital transformation: from evolution to future trends. 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://hrdtoolkit.org/interoperabilidad/" target="_blank" rel="noopener noreferrer") HRD Toolkit. (2025). Interoperabilidad: ¿Qué es y cómo implementarla en tu organización? 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://fundacionlazarus.org/impacto-de-la-interoperabilidad-en-la-innovacion/" target="_blank" rel="noopener noreferrer") Fundación Lazarus. (2024). Impacto de la interoperabilidad en la innovación. 
-
-
-          .col-12.col-md-6.col-lg-3.offset-lg-1
+    .bg-full-width.bg-color-8
+      .px-4.px-md-5.py-4
+        .row.mb-4
+          .col-lg-4
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='')
-  
+              img(src="@/assets/curso/tema2/18.png", data-aos="zoom-in")
+          .col-lg-8
+            p(data-aos="fade-left").mb-4 La integración de estas tecnologías en el proceso de toma de decisiones corporativas genera múltiples ventajas. Entre las más destacadas se encuentran:
+        
+            .bg-color-2.p-4(data-aos="fade-left").mb-4
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Mayor precisión en las proyecciones
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Optimización de recursos
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Personalización de servicios
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Identificación temprana de oportunidades y amenazas
+
+            p Las aplicaciones por sectores son: 
+
+        .row.justify-content-center.align-items-stretch.mb-4
+          .col-lg-4
+            .bg-color-10.p-4(data-aos="fade-left").h-100
+              .row.align-items-center
+                .col-lg-auto
+                  img(src="@/assets/curso/tema2/19.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  h5.mb-2.text-white Financiero
+                  p.mb-0.text-white Evaluación de riesgos crediticios, detección de fraudes
+        
+          .col-lg-4
+            .bg-color-10.p-4(data-aos="fade-left").h-100
+              .row.align-items-center
+                .col-lg-auto
+                  img(src="@/assets/curso/tema2/20.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  h5.mb-2.text-white #[em Marketing]
+                  p.mb-0.text-white Segmentación de audiencias, personalización de campañas
+        
+          .col-lg-4
+            .bg-color-10.p-4(data-aos="fade-left").h-100
+              .row.align-items-center
+                .col-lg-auto
+                  img(src="@/assets/curso/tema2/21.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  h5.mb-2.text-white Logística
+                  p.mb-0.text-white Optimización de rutas, gestión de inventarios
+
+    h2(data-aos="flip-up").mb-4 Retos en la implementación
+
+    .row.mb-5
+      .col-lg-8
+        p(data-aos="fade-left") A pesar de sus ventajas, la adopción eficaz de estas tecnologías presenta desafíos importantes, tales como:
+    
+        .bg-color-1.p-4(data-aos="fade-left").mb-4
+          ul.lista-ul--color.color-dark.mb-0
+            li.mb-0
+              i.fas.fa-arrow-circle-right
+              | Calidad y veracidad de los datos.
+            li.mb-0
+              i.fas.fa-arrow-circle-right
+              | Infraestructura tecnológica adecuada.
+            li.mb-0
+              i.fas.fa-arrow-circle-right
+              | Capacitación del personal especializado.
+
+        p(data-aos="fade-left").mb-4 La implementación de Big Data y análisis predictivo representa una transformación profunda en la manera en que las organizaciones abordan la toma de decisiones. Al convertir grandes volúmenes de datos en información accionable, estas herramientas permiten a las empresas adaptarse rápidamente a un entorno dinámico y competitivo, fortaleciendo su capacidad de innovación y sostenibilidad a largo plazo.
+
+          
+    
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema2/22.png", data-aos="zoom-in")
+    
+
+    .titulo-figura.mb-2
+      h5 Tabla 2. 
+      span #[em Big Data] y análisis predictivo en la toma de decisiones
+
+    .tabla-a.color-acento-contenido.mb-5#Tabla2
+      table
+        thead
+          tr
+            th.bg-color-tabla.text-white Concepto
+            th.bg-color-tabla.text-white Descripción
+            th.bg-color-tabla.text-white Aplicación Empresarial
+            th.bg-color-tabla.text-white Ejemplo Real
+        tbody
+          tr
+            td #[em Big Data]
+            td Conjunto masivo de datos que se generan a gran velocidad, en formatos variados y en volúmenes elevados.
+            td Permite identificar patrones de comportamiento del consumidor y mejorar la eficiencia operativa.
+            td Amazon utiliza #[em Big Data] para recomendar productos personalizados basados en el historial de compras del cliente.
+          tr
+            td Análisis Predictivo
+            td Técnica que utiliza modelos estadísticos y algoritmos para prever eventos futuros con base en datos históricos.
+            td Ayuda en la toma de decisiones estratégicas anticipando tendencias y comportamientos futuros.
+            td Netflix utiliza análisis predictivo para sugerir contenido que probablemente el usuario quiera ver, basándose en sus hábitos de visualización.
+          tr
+            td #[em Big Data] + Análisis Predictivo
+            td Combinación que permite procesar grandes volúmenes de datos para anticiparse a escenarios futuros.
+            td Potencializa la toma de decisiones en áreas como marketing, finanzas, logística y RR. HH.
+            td Zara analiza grandes volúmenes de datos de ventas y preferencias para ajustar rápidamente su producción y distribución de prendas.
+
+    #t_2_3.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.3] Herramientas y procesos clave en inteligencia de negocios
+
+
+    .row.mb-5
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema2/22b.png", alt="")
+      .col-lg-8
+        .bg-color-2.px-4.py-5(data-aos="fade-left").mb-4
+          p.mb-0 La inteligencia de negocios (#[em Business Intelligence], BI) es un conjunto de metodologías, procesos, arquitecturas y tecnologías que permiten transformar datos en información significativa y útil para la toma de decisiones empresariales. Su objetivo principal es mejorar la eficiencia operativa, identificar nuevas oportunidades de negocio y facilitar decisiones estratégicas basadas en datos concretos.
+                
+
+    h2(data-aos="flip-up").mb-4 Procesos fundamentales en BI
+
+    p(data-aos="fade-left").mb-4 Los procesos clave de la inteligencia de negocios pueden resumirse de la siguiente manera:
+
+    .row.align-items-start.mb-5
+      .col-lg-8
+    
+        AcordionA(tipo="b")
+          .div(titulo="Recopilación de datos")
+            p Obtención de datos desde fuentes internas y externas, como sistemas ERP, CRM o redes sociales.
+    
+          .div(titulo="Almacenamiento de datos")
+            p Organización de los datos en #[em data warehouses] que facilitan su acceso y posterior análisis.
+    
+          .div(titulo="Procesamiento y análisis")
+            p Aplicación de herramientas analíticas para identificar patrones, tendencias y relaciones.
+    
+          .div(titulo="Visualización de datos")
+            p Presentación de la información en dashboards, informes o gráficos interactivos.
+
+          .div(titulo="Toma de decisiones")
+            p Uso de la información obtenida para respaldar decisiones estratégicas, tácticas y operativas.
+
+
+    
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema2/23a.png", alt="").mb-4.mb-lg-0
+
+
+    h2 Herramientas clave de BI
+    
+    
+    p(data-aos="fade-left").mb-4 La implementación de estos procesos requiere herramientas especializadas que permitan gestionar grandes volúmenes de datos y generar valor a partir de ellos. Algunas de las más destacadas son:
+
+
+    .bg-full-width.bg-color-12
+      .px-4.px-md-5.pb-md-3
+        .row.justify-content-center.mb-5.align-items-center
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/tema2/23.png', alt='')
+          .col-lg-8
+    
+            SlyderF(columnas="col-12 col-lg-6")
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema2/24.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Power BI
+                p.text-center De Microsoft; permite crear informes interactivos y se integra con el ecosistema Office.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema2/25.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Tableau
+                p.text-center Reconocida por su facilidad de uso y potentes capacidades de visualización interactiva.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema2/26.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 QlikView
+                p.text-center Ofrece análisis en tiempo real y una interfaz intuitiva para la exploración de datos.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema2/27.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 SAP BusinessObjects
+                p.text-center Suite robusta para análisis, generación de informes y gestión del rendimiento empresarial.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema2/28.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Pentaho
+                p.text-center Plataforma #[em open source] que integra análisis, minería de datos e informes.
+
+    .bg-full-width.bg-color-8
+      .px-4.px-md-5.pt-4
+
+
+        h2 Aplicación práctica en el contexto empresarial
+
+        .row.mb-5.align-items-center
+          .col-lg-8
+            p(data-aos="fade-left") Por ejemplo, una empresa del sector #[em retail] puede implementar soluciones de BI para optimizar su cadena de suministro. Esto le permite:
+
+            .bg-color-2.p-4(data-aos="fade-left").mb-4
+              ul.lista-ul--color.color-dark.mb-4
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[b Monitorear en tiempo real] los niveles de inventario en diversas tiendas.
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[b Analizar patrones de compra] para prever la demanda.
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[b Identificar proveedores más eficientes] en tiempos y costos.
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[b Visualizar el desempeño de ventas] por región, producto o periodo.
+              
+            p(data-aos="fade-left").mb-4 Este enfoque basado en datos permite #[b reducir costos, tomar decisiones informadas y mejorar la experiencia del cliente].
+        
+          .col-lg-4
+            figure
+              img(src="@/assets/curso/tema2/29.png", data-aos="zoom-in")
+        
+        h2(data-aos="flip-up").mb-4 Desarrollo de habilidades blandas
+
+        p(data-aos="fade-left").mb-4 El aprovechamiento efectivo de BI no solo requiere competencias técnicas, sino también habilidades interpersonales esenciales para el trabajo en entornos empresariales dinámicos:
+
+        div.row.justify-content-center.align-items-stretch.mb-0
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema2/30.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.mb-3.text-center Pensamiento crítico
+              p.mb-0.text-center Evaluar la calidad y relevancia de los datos.
+        
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema2/31.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.mb-3.text-center Comunicación efectiva
+              p.mb-0.text-center Presentar hallazgos de manera clara y persuasiva.
+        
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema2/32.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.mb-3.text-center Colaboración
+              p.mb-0.text-center Participar activamente en equipos multidisciplinarios.
+        
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema2/33.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.mb-3.text-center Adaptabilidad
+              p.mb-0.text-center Afrontar con flexibilidad los cambios tecnológicos y metodológicos.
+
+
+
+    
+
+        
+
+          
+    
+        
+        
+    
+
+    
+
+
 </template>
-
-<script>
-import Actividad from '@/components/actividad/Actividad.vue'
-export default {
-  name: 'Tema2',
-  components: {
-    Actividad,
-  },
-  data() {
-    return {
-      cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
-        titulo: 'Ponte a prueba',
-        introduccion:
-          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
-        barajarPreguntas: true,
-        preguntas: [
-          {
-            id: 1,
-            texto:
-              '¿Qué herramienta se utiliza para crear visualizaciones interactivas en la inteligencia de negocios?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              { id: 'a', texto: 'Excel', esCorrecta: false },
-              { id: 'b', texto: 'Power BI', esCorrecta: true },
-              { id: 'c', texto: 'Photoshop', esCorrecta: false },
-              { id: 'd', texto: 'Outlook', esCorrecta: false },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 2,
-            texto: '¿Cuál es el objetivo principal del análisis de tendencias?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Aumentar el volumen de datos',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Eliminar información redundante',
-                esCorrecta: false,
-              },
-              {
-                id: 'c',
-                texto: 'Predecir comportamientos futuros',
-                esCorrecta: true,
-              },
-              { id: 'd', texto: 'Crear bases de datos', esCorrecta: false },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 3,
-            texto:
-              '¿Qué tipo de gráfico es más adecuado para mostrar la evolución de una variable a lo largo del tiempo?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              { id: 'a', texto: 'Gráfico de barras', esCorrecta: false },
-              { id: 'b', texto: 'Mapa de calor', esCorrecta: false },
-              { id: 'c', texto: 'Gráfico de líneas', esCorrecta: true },
-              { id: 'd', texto: 'Gráfico de pastel', esCorrecta: false },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 4,
-            texto:
-              '¿Cuál de los siguientes sistemas permite integrar funciones de ventas, inventario y finanzas en una sola plataforma?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              { id: 'a', texto: 'CRM', esCorrecta: false },
-              { id: 'b', texto: 'ERP', esCorrecta: true },
-              { id: 'c', texto: 'BI', esCorrecta: false },
-              { id: 'd', texto: 'HTML', esCorrecta: false },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 5,
-            texto: '¿Qué significa KPI en el contexto empresarial?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Knowledge Process Integration',
-                esCorrecta: false,
-              },
-              { id: 'b', texto: 'Key Performance Indicator', esCorrecta: true },
-              {
-                id: 'c',
-                texto: 'Kernel Platform Interface',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Knowledge Predictive Insights',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-        ],
-        mensaje_final_aprobado:
-          '¡Felicidades! Has superado la prueba con éxito.',
-        mensaje_final_reprobado:
-          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
-      },
-    }
-  },
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-}
-</script>
-
-<style lang="sass">
-.bg-color-actividad
-  background-color: #EBF1F5
-</style>

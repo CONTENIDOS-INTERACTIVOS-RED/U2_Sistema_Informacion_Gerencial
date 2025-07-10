@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.introduccion
   BannerInterno(subTitulo="Introducción")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.mb-5
 
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0
@@ -14,7 +14,7 @@
         .bg-color-2.tarjeta.p-4.h-100(data-aos="fade-left")
           p(data-aos="fade-left") El contenido se organiza en tres grandes temas: infraestructura tecnológica, gestión de datos e inteligencia de negocios, y seguridad de la información. Se explica cómo las organizaciones pueden integrar tecnología para optimizar procesos, garantizar la protección de los datos y generar ventajas competitivas mediante el uso estratégico de herramientas como sistemas de gestión de bases de datos, análisis predictivo y plataformas de inteligencia empresarial. Asimismo, se presentan casos prácticos aplicados al contexto colombiano que ilustran la transformación digital en pequeñas y medianas empresas.
     
-    .bg-full-width.bg-color-3.mb-5
+    .bg-full-width.bg-color-3.mb-0
       .px-4.px-md-5.py-4
         .row.align-items-center
           .col-lg-auto
