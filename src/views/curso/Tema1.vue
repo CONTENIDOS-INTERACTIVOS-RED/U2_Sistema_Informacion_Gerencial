@@ -51,7 +51,7 @@
               figure
                 img(src="@/assets/curso/tema1/slide-1.png")
             .col-lg-7
-              h5 #[em Firmware]
+              h5 #[em Hardware]
               p Entienda los dispositivos físicos, tales como servidores, ordenadores, dispositivos de almacenamiento y equipos de red, que constituyen el fundamento de la infraestructura tecnológica.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5
