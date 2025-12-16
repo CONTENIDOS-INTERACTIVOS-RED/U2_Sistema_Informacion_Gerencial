@@ -549,13 +549,13 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://dspace.ups.edu.ec/handle/123456789/20966" target="_blank" rel="noopener noreferrer") Miranda Jiménez, J. N. (2021). Mapeo sistemático de metodologías de Seguridad de la Información para el control de la gestión de riesgos informáticos (Bachelor's thesis).
+              a(href="https://doi.org/10.33975/riuq.v0i33n1.514" target="_blank" rel="noopener noreferrer") Barón Ramírez, E., et al. (2021). La inteligencia de negocios y la analítica de datos en los procesos empresariales. Revista de Investigaciones Universidad del Quindío, 33(1), 132-139.
 
 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://revistas.uleam.edu.ec/index.php/business_science/article/view/221" target="_blank" rel="noopener noreferrer") Zambrano, K. B. Á., Vidal, W. E. B., & Vera, R. R. T. (2022). Vulnerabilidades en los sistemas informáticos owasp top 10: revisión bibliográfica: Vulnerabilities in computer systems owasp top 10: bibliographic review. Journal Business Science-ISSN: 2737-615X, 3(2), 1-8.
+              a(href="https://www.tableau.com/es-es/reports/business-intelligence-trends/data-curation" target="_blank" rel="noopener noreferrer") Tableau. (2019). Las 10 tendencias principales de inteligencia de negocios para 2019.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")

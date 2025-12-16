@@ -378,13 +378,24 @@
           .col-12.col-md-6.col-lg-7
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar y enriquecer su aprendizaje en los temas tratados en esta unidad.
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://ve.scielo.org/scielo.php?pid=S2739-00632024000200013&script=sci_arttext" target="_blank" rel="noopener noreferrer") Loor Macías, M. G., & Mendoza Cevallos, M. G. (2024). Perspectivas sobre seguridad, salud ocupacional de los trabajadores y el mejoramiento del medio ambiente laboral en el periodo 2019-2023. Revista Científica de Salud Ocupacional, 2(2).
+            //- p.d-flex.my-4
+            //-   img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+            //-   a(href="https://ve.scielo.org/scielo.php?pid=S2739-00632024000200013&script=sci_arttext" target="_blank" rel="noopener noreferrer") Loor Macías, M. G., & Mendoza Cevallos, M. G. (2024). Perspectivas sobre seguridad, salud ocupacional de los trabajadores y el mejoramiento del medio ambiente laboral en el periodo 2019-2023. Revista Científica de Salud Ocupacional, 2(2).
+
+            //- p.d-flex.my-4
+            //-   img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+            //-   a(href="https://www.redalyc.org/journal/6378/637869113010/htm/" target="_blank" rel="noopener noreferrer") Redalyc. (2024). Modelo para la gestión de la seguridad de la información basado en la norma ISO/IEC 27001. Revista de Tecnología e Innovación, 10(3).
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.redalyc.org/journal/6378/637869113010/htm/" target="_blank" rel="noopener noreferrer") Redalyc. (2024). Modelo para la gestión de la seguridad de la información basado en la norma ISO/IEC 27001. Revista de Tecnología e Innovación, 10(3).
+              a(href="https://dspace.ups.edu.ec/handle/123456789/20966" target="_blank" rel="noopener noreferrer") Miranda Jiménez, J. N. (2021). Mapeo sistemático de metodologías de Seguridad de la Información para el control de la gestión de riesgos informáticos (Bachelor's thesis).
+
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://revistas.uleam.edu.ec/index.php/business_science/article/view/221" target="_blank" rel="noopener noreferrer") Zambrano, K. B. Á., Vidal, W. E. B., & Vera, R. R. T. (2022). Vulnerabilidades en los sistemas informáticos owasp top 10: revisión bibliográfica: Vulnerabilities in computer systems owasp top 10: bibliographic review. Journal Business Science-ISSN: 2737-615X, 3(2), 1-8.
+
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
