@@ -409,9 +409,6 @@
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://unirfp.unir.net/revista/ingenieria-y-tecnologia/principios-seguridad-informatica/" target="_blank" rel="noopener noreferrer") UNIR Formación Profesional. (2023). Los 4 principios de la seguridad informática y su implementación.
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.ambit-bierzo.com/blog/tipos-de-vulnerabilidades-y-amenazas-inform%C3%A1ticas" target="_blank" rel="noopener noreferrer") Ambit BST. (2020). Tipos de Vulnerabilidades y Amenazas informáticas.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
